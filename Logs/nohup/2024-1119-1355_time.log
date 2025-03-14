@@ -1,0 +1,441 @@
+当前时间为：24-1119-1355
+Namespace(dataset='RoadScene_train', testset='Test', num_epochs=4000, batch_size=4, num_workers=4, learning_rate=0.0001, weight_decay=1e-06, seed=2024, id='24-1119-1355', img_size=[304, 400], loss_weight=[1, 20, 20, 1, 1, 1, 1, 1], opt_type='Adam', scheduler=['True', '800'], img_mode='rgb', registration=True, use_bn=True, num_step=150, train_paths={'RoadScene': '/mnt/data/yida/dataset/RoadScene-master/RoadS', 'RoadScene_Sub': '/mnt/data/yida/dataset/RoadScene-master/RoadScene-master_Sub', 'RoadScene_20': '/mnt/data/yida/dataset/RoadScene-master/RoadScene-master_20', 'RoadScene_128_64': '/mnt/data/yida/dataset/RoadScene-master/RoadScene_128_64', 'RoadScene_train': '/mnt/data/yida/dataset/RoadScene-master/RoadS_train', 'RoadS_train128_128_64': '/mnt/data/yida/dataset/RoadScene-master/RoadS_train128_128_64', 'RoadS_train256_256_128': '/mnt/data/yida/dataset/RoadScene-master/RoadS_train256_256_128', 'TNO': '/mnt/data/yida/dataset/TNO_Image_Fusion_Dataset/TNO', 'LOT': '/mnt/data/yida/dataset/LOT', 'M3FD': '/mnt/data/yida/dataset/M3FD/M3FD_Fusion', 'M3FD_Sub': '/mnt/data/yida/dataset/M3FD/M3FD_Fusion/M3FD_Fusion_Sub', 'M3FD_Finally': '/mnt/data/yida/dataset/M3FD_Finally/train', 'MSRS': '/mnt/data/yida/dataset/MSRS-main/train', 'MSRS_Sub': '/mnt/data/yida/dataset/MSRS-main/MSRS-main_Sub', 'FMB': '/mnt/data/yida/dataset/FMB/train', 'FMB_Sub': '/mnt/data/yida/dataset/FMB/train/train_Sub', 'TNO_MAC': '/Users/yida/Desktop/dataset/TNO_Image_Fusion_Dataset/TNO', 'Test': '/mnt/data/yida/dataset/testset/', 'NIRScene': '/mnt/data/yida/dataset/NIRScene/', 'NIRScene_Sub': '/mnt/data/yida/dataset/NIRScene/NIRScene_Sub'}, phase2_ModelPath='./Model/Parameters/24-1119-1001/RegImageFusModel-best.pth', phase2_model_id='24-1119-1001', phase3_ModelPath='./Model/Parameters/24-0914-1142/MoveRegImageFusModel-best.pth', phase3_model_id='24-0914-1142', size_mode='resize')
+NVIDIA GeForce RTX 4090
+shallow.layer1.0.weight : False
+shallow.layer1.0.bias : False
+shallow.layer1.1.weight : False
+shallow.layer1.1.bias : False
+shallow.layer1.3.weight : False
+shallow.layer1.3.bias : False
+shallow.layer1.4.weight : False
+shallow.layer1.4.bias : False
+shallow.layer2.0.weight : False
+shallow.layer2.0.bias : False
+shallow.layer2.1.weight : False
+shallow.layer2.1.bias : False
+shallow.layer2.3.weight : False
+shallow.layer2.3.bias : False
+shallow.layer2.4.weight : False
+shallow.layer2.4.bias : False
+cnn_based.mobilenetv4_block.uib_0._start_dw_.conv.weight : False
+cnn_based.mobilenetv4_block.uib_0._start_dw_.BatchNorm2d.weight : False
+cnn_based.mobilenetv4_block.uib_0._start_dw_.BatchNorm2d.bias : False
+cnn_based.mobilenetv4_block.uib_0._expand_conv.conv.weight : False
+cnn_based.mobilenetv4_block.uib_0._expand_conv.BatchNorm2d.weight : False
+cnn_based.mobilenetv4_block.uib_0._expand_conv.BatchNorm2d.bias : False
+cnn_based.mobilenetv4_block.uib_0._middle_dw.conv.weight : False
+cnn_based.mobilenetv4_block.uib_0._middle_dw.BatchNorm2d.weight : False
+cnn_based.mobilenetv4_block.uib_0._middle_dw.BatchNorm2d.bias : False
+cnn_based.mobilenetv4_block.uib_0._proj_conv.conv.weight : False
+cnn_based.mobilenetv4_block.uib_0._proj_conv.BatchNorm2d.weight : False
+cnn_based.mobilenetv4_block.uib_0._proj_conv.BatchNorm2d.bias : False
+cnn_based.mobilenetv4_block.uib_1._start_dw_.conv.weight : False
+cnn_based.mobilenetv4_block.uib_1._start_dw_.BatchNorm2d.weight : False
+cnn_based.mobilenetv4_block.uib_1._start_dw_.BatchNorm2d.bias : False
+cnn_based.mobilenetv4_block.uib_1._expand_conv.conv.weight : False
+cnn_based.mobilenetv4_block.uib_1._expand_conv.BatchNorm2d.weight : False
+cnn_based.mobilenetv4_block.uib_1._expand_conv.BatchNorm2d.bias : False
+cnn_based.mobilenetv4_block.uib_1._middle_dw.conv.weight : False
+cnn_based.mobilenetv4_block.uib_1._middle_dw.BatchNorm2d.weight : False
+cnn_based.mobilenetv4_block.uib_1._middle_dw.BatchNorm2d.bias : False
+cnn_based.mobilenetv4_block.uib_1._proj_conv.conv.weight : False
+cnn_based.mobilenetv4_block.uib_1._proj_conv.BatchNorm2d.weight : False
+cnn_based.mobilenetv4_block.uib_1._proj_conv.BatchNorm2d.bias : False
+cnn_based.mobilenetv4_block.uib_2._start_dw_.conv.weight : False
+cnn_based.mobilenetv4_block.uib_2._start_dw_.BatchNorm2d.weight : False
+cnn_based.mobilenetv4_block.uib_2._start_dw_.BatchNorm2d.bias : False
+cnn_based.mobilenetv4_block.uib_2._expand_conv.conv.weight : False
+cnn_based.mobilenetv4_block.uib_2._expand_conv.BatchNorm2d.weight : False
+cnn_based.mobilenetv4_block.uib_2._expand_conv.BatchNorm2d.bias : False
+cnn_based.mobilenetv4_block.uib_2._middle_dw.conv.weight : False
+cnn_based.mobilenetv4_block.uib_2._middle_dw.BatchNorm2d.weight : False
+cnn_based.mobilenetv4_block.uib_2._middle_dw.BatchNorm2d.bias : False
+cnn_based.mobilenetv4_block.uib_2._proj_conv.conv.weight : False
+cnn_based.mobilenetv4_block.uib_2._proj_conv.BatchNorm2d.weight : False
+cnn_based.mobilenetv4_block.uib_2._proj_conv.BatchNorm2d.bias : False
+cnn_based.mobilenetv4_block.uib_3._start_dw_.conv.weight : False
+cnn_based.mobilenetv4_block.uib_3._start_dw_.BatchNorm2d.weight : False
+cnn_based.mobilenetv4_block.uib_3._start_dw_.BatchNorm2d.bias : False
+cnn_based.mobilenetv4_block.uib_3._expand_conv.conv.weight : False
+cnn_based.mobilenetv4_block.uib_3._expand_conv.BatchNorm2d.weight : False
+cnn_based.mobilenetv4_block.uib_3._expand_conv.BatchNorm2d.bias : False
+cnn_based.mobilenetv4_block.uib_3._middle_dw.conv.weight : False
+cnn_based.mobilenetv4_block.uib_3._middle_dw.BatchNorm2d.weight : False
+cnn_based.mobilenetv4_block.uib_3._middle_dw.BatchNorm2d.bias : False
+cnn_based.mobilenetv4_block.uib_3._proj_conv.conv.weight : False
+cnn_based.mobilenetv4_block.uib_3._proj_conv.BatchNorm2d.weight : False
+cnn_based.mobilenetv4_block.uib_3._proj_conv.BatchNorm2d.bias : False
+cnn_based.mobilenetv4_block.uib_4._start_dw_.conv.weight : False
+cnn_based.mobilenetv4_block.uib_4._start_dw_.BatchNorm2d.weight : False
+cnn_based.mobilenetv4_block.uib_4._start_dw_.BatchNorm2d.bias : False
+cnn_based.mobilenetv4_block.uib_4._expand_conv.conv.weight : False
+cnn_based.mobilenetv4_block.uib_4._expand_conv.BatchNorm2d.weight : False
+cnn_based.mobilenetv4_block.uib_4._expand_conv.BatchNorm2d.bias : False
+cnn_based.mobilenetv4_block.uib_4._middle_dw.conv.weight : False
+cnn_based.mobilenetv4_block.uib_4._middle_dw.BatchNorm2d.weight : False
+cnn_based.mobilenetv4_block.uib_4._middle_dw.BatchNorm2d.bias : False
+cnn_based.mobilenetv4_block.uib_4._proj_conv.conv.weight : False
+cnn_based.mobilenetv4_block.uib_4._proj_conv.BatchNorm2d.weight : False
+cnn_based.mobilenetv4_block.uib_4._proj_conv.BatchNorm2d.bias : False
+cnn_based.mobilenetv4_block.uib_5._start_dw_.conv.weight : False
+cnn_based.mobilenetv4_block.uib_5._start_dw_.BatchNorm2d.weight : False
+cnn_based.mobilenetv4_block.uib_5._start_dw_.BatchNorm2d.bias : False
+cnn_based.mobilenetv4_block.uib_5._expand_conv.conv.weight : False
+cnn_based.mobilenetv4_block.uib_5._expand_conv.BatchNorm2d.weight : False
+cnn_based.mobilenetv4_block.uib_5._expand_conv.BatchNorm2d.bias : False
+cnn_based.mobilenetv4_block.uib_5._middle_dw.conv.weight : False
+cnn_based.mobilenetv4_block.uib_5._middle_dw.BatchNorm2d.weight : False
+cnn_based.mobilenetv4_block.uib_5._middle_dw.BatchNorm2d.bias : False
+cnn_based.mobilenetv4_block.uib_5._proj_conv.conv.weight : False
+cnn_based.mobilenetv4_block.uib_5._proj_conv.BatchNorm2d.weight : False
+cnn_based.mobilenetv4_block.uib_5._proj_conv.BatchNorm2d.bias : False
+transformer_based.restormer.restormer.0.norm1.body.weight : False
+transformer_based.restormer.restormer.0.norm1.body.bias : False
+transformer_based.restormer.restormer.0.attn.temperature : False
+transformer_based.restormer.restormer.0.attn.qkv.weight : False
+transformer_based.restormer.restormer.0.attn.qkv_dwconv.weight : False
+transformer_based.restormer.restormer.0.attn.project_out.weight : False
+transformer_based.restormer.restormer.0.norm2.body.weight : False
+transformer_based.restormer.restormer.0.norm2.body.bias : False
+transformer_based.restormer.restormer.0.ffn.project_in.weight : False
+transformer_based.restormer.restormer.0.ffn.dwconv.weight : False
+transformer_based.restormer.restormer.0.ffn.project_out.weight : False
+transformer_based.restormer.restormer.1.norm1.body.weight : False
+transformer_based.restormer.restormer.1.norm1.body.bias : False
+transformer_based.restormer.restormer.1.attn.temperature : False
+transformer_based.restormer.restormer.1.attn.qkv.weight : False
+transformer_based.restormer.restormer.1.attn.qkv_dwconv.weight : False
+transformer_based.restormer.restormer.1.attn.project_out.weight : False
+transformer_based.restormer.restormer.1.norm2.body.weight : False
+transformer_based.restormer.restormer.1.norm2.body.bias : False
+transformer_based.restormer.restormer.1.ffn.project_in.weight : False
+transformer_based.restormer.restormer.1.ffn.dwconv.weight : False
+transformer_based.restormer.restormer.1.ffn.project_out.weight : False
+feature_concat_ir.layer1.0.weight : False
+feature_concat_ir.layer1.0.bias : False
+feature_concat_ir.layer1.1.weight : False
+feature_concat_ir.layer1.1.bias : False
+feature_concat_ir.layer2.0.weight : False
+feature_concat_ir.layer2.0.bias : False
+feature_concat_ir.layer2.1.weight : False
+feature_concat_ir.layer2.1.bias : False
+feature_concat_ir.layer2.3.weight : False
+feature_concat_ir.layer2.3.bias : False
+feature_concat_ir.layer2.4.weight : False
+feature_concat_ir.layer2.4.bias : False
+feature_concat_ir.layer3.0.weight : False
+feature_concat_ir.layer3.0.bias : False
+feature_concat_ir.layer3.1.weight : False
+feature_concat_ir.layer3.1.bias : False
+feature_concat_vi.layer1.0.weight : False
+feature_concat_vi.layer1.0.bias : False
+feature_concat_vi.layer1.1.weight : False
+feature_concat_vi.layer1.1.bias : False
+feature_concat_vi.layer2.0.weight : False
+feature_concat_vi.layer2.0.bias : False
+feature_concat_vi.layer2.1.weight : False
+feature_concat_vi.layer2.1.bias : False
+feature_concat_vi.layer2.3.weight : False
+feature_concat_vi.layer2.3.bias : False
+feature_concat_vi.layer2.4.weight : False
+feature_concat_vi.layer2.4.bias : False
+feature_concat_vi.layer3.0.weight : False
+feature_concat_vi.layer3.0.bias : False
+feature_concat_vi.layer3.1.weight : False
+feature_concat_vi.layer3.1.bias : False
+deformable_transformation.deformation.Multiscale_feature.layer1.0.weight : True
+deformable_transformation.deformation.Multiscale_feature.layer1.0.bias : True
+deformable_transformation.deformation.Multiscale_feature.layer1.3.weight : True
+deformable_transformation.deformation.Multiscale_feature.layer1.3.bias : True
+deformable_transformation.deformation.Multiscale_feature.layer2.0.weight : True
+deformable_transformation.deformation.Multiscale_feature.layer2.0.bias : True
+deformable_transformation.deformation.Multiscale_feature.layer2.3.weight : True
+deformable_transformation.deformation.Multiscale_feature.layer2.3.bias : True
+deformable_transformation.deformation.Multiscale_feature.layer3.0.weight : True
+deformable_transformation.deformation.Multiscale_feature.layer3.0.bias : True
+deformable_transformation.deformation.Multiscale_feature.layer3.3.weight : True
+deformable_transformation.deformation.Multiscale_feature.layer3.3.bias : True
+deformable_transformation.deformation.Multiscale_feature.layer4.0.weight : True
+deformable_transformation.deformation.Multiscale_feature.layer4.0.bias : True
+deformable_transformation.deformation.Multiscale_feature.layer4.3.weight : True
+deformable_transformation.deformation.Multiscale_feature.layer4.3.bias : True
+deformable_transformation.deformation.Decoder.mobilenetv4_block4.LayerNorm.weight : True
+deformable_transformation.deformation.Decoder.mobilenetv4_block4.LayerNorm.bias : True
+deformable_transformation.deformation.Decoder.mobilenetv4_block4.mobilenetv4_block.uib_0._start_dw_.conv.weight : True
+deformable_transformation.deformation.Decoder.mobilenetv4_block4.mobilenetv4_block.uib_0._expand_conv.conv.weight : True
+deformable_transformation.deformation.Decoder.mobilenetv4_block4.mobilenetv4_block.uib_0._middle_dw.conv.weight : True
+deformable_transformation.deformation.Decoder.mobilenetv4_block4.mobilenetv4_block.uib_0._proj_conv.conv.weight : True
+deformable_transformation.deformation.Decoder.mobilenetv4_block4.conv.0.weight : True
+deformable_transformation.deformation.Decoder.mobilenetv4_block4.conv.0.bias : True
+deformable_transformation.deformation.Decoder.mobilenetv4_block4.conv.2.weight : True
+deformable_transformation.deformation.Decoder.mobilenetv4_block4.conv.2.bias : True
+deformable_transformation.deformation.Decoder.mobilenetv4_block4.ca_layer.Conv_0.weight : True
+deformable_transformation.deformation.Decoder.mobilenetv4_block4.ca_layer.Conv_0.bias : True
+deformable_transformation.deformation.Decoder.mobilenetv4_block4.ca_layer.Conv_1.weight : True
+deformable_transformation.deformation.Decoder.mobilenetv4_block4.ca_layer.Conv_1.bias : True
+deformable_transformation.deformation.Decoder.restormer4.Conv.weight : True
+deformable_transformation.deformation.Decoder.restormer4.Conv.bias : True
+deformable_transformation.deformation.Decoder.restormer4.restormer.0.norm1.body.weight : True
+deformable_transformation.deformation.Decoder.restormer4.restormer.0.norm1.body.bias : True
+deformable_transformation.deformation.Decoder.restormer4.restormer.0.attn.temperature : True
+deformable_transformation.deformation.Decoder.restormer4.restormer.0.attn.qkv.weight : True
+deformable_transformation.deformation.Decoder.restormer4.restormer.0.attn.qkv_dwconv.weight : True
+deformable_transformation.deformation.Decoder.restormer4.restormer.0.attn.project_out.weight : True
+deformable_transformation.deformation.Decoder.restormer4.restormer.0.norm2.body.weight : True
+deformable_transformation.deformation.Decoder.restormer4.restormer.0.norm2.body.bias : True
+deformable_transformation.deformation.Decoder.restormer4.restormer.0.ffn.project_in.weight : True
+deformable_transformation.deformation.Decoder.restormer4.restormer.0.ffn.dwconv.weight : True
+deformable_transformation.deformation.Decoder.restormer4.restormer.0.ffn.project_out.weight : True
+deformable_transformation.deformation.Decoder.reg_flow4_a.reg_head.weight : True
+deformable_transformation.deformation.Decoder.reg_flow4_a.reg_head.bias : True
+deformable_transformation.deformation.Decoder.reg_flow4_e.reg_head.weight : True
+deformable_transformation.deformation.Decoder.reg_flow4_e.reg_head.bias : True
+deformable_transformation.deformation.Decoder.reg_flow4_f.reg_head.weight : True
+deformable_transformation.deformation.Decoder.reg_flow4_f.reg_head.bias : True
+deformable_transformation.deformation.Decoder.flow4_a_up.deconv.weight : True
+deformable_transformation.deformation.Decoder.flow4_e_up.deconv.weight : True
+deformable_transformation.deformation.Decoder.flow4_f_up.deconv.weight : True
+deformable_transformation.deformation.Decoder.feature4_up.deconv.weight : True
+deformable_transformation.deformation.Decoder.mobilenetv4_block3.LayerNorm.weight : True
+deformable_transformation.deformation.Decoder.mobilenetv4_block3.LayerNorm.bias : True
+deformable_transformation.deformation.Decoder.mobilenetv4_block3.mobilenetv4_block.uib_0._start_dw_.conv.weight : True
+deformable_transformation.deformation.Decoder.mobilenetv4_block3.mobilenetv4_block.uib_0._expand_conv.conv.weight : True
+deformable_transformation.deformation.Decoder.mobilenetv4_block3.mobilenetv4_block.uib_0._middle_dw.conv.weight : True
+deformable_transformation.deformation.Decoder.mobilenetv4_block3.mobilenetv4_block.uib_0._proj_conv.conv.weight : True
+deformable_transformation.deformation.Decoder.mobilenetv4_block3.conv.0.weight : True
+deformable_transformation.deformation.Decoder.mobilenetv4_block3.conv.0.bias : True
+deformable_transformation.deformation.Decoder.mobilenetv4_block3.conv.2.weight : True
+deformable_transformation.deformation.Decoder.mobilenetv4_block3.conv.2.bias : True
+deformable_transformation.deformation.Decoder.mobilenetv4_block3.ca_layer.Conv_0.weight : True
+deformable_transformation.deformation.Decoder.mobilenetv4_block3.ca_layer.Conv_0.bias : True
+deformable_transformation.deformation.Decoder.mobilenetv4_block3.ca_layer.Conv_1.weight : True
+deformable_transformation.deformation.Decoder.mobilenetv4_block3.ca_layer.Conv_1.bias : True
+deformable_transformation.deformation.Decoder.restormer3.Conv.weight : True
+deformable_transformation.deformation.Decoder.restormer3.Conv.bias : True
+deformable_transformation.deformation.Decoder.restormer3.restormer.0.norm1.body.weight : True
+deformable_transformation.deformation.Decoder.restormer3.restormer.0.norm1.body.bias : True
+deformable_transformation.deformation.Decoder.restormer3.restormer.0.attn.temperature : True
+deformable_transformation.deformation.Decoder.restormer3.restormer.0.attn.qkv.weight : True
+deformable_transformation.deformation.Decoder.restormer3.restormer.0.attn.qkv_dwconv.weight : True
+deformable_transformation.deformation.Decoder.restormer3.restormer.0.attn.project_out.weight : True
+deformable_transformation.deformation.Decoder.restormer3.restormer.0.norm2.body.weight : True
+deformable_transformation.deformation.Decoder.restormer3.restormer.0.norm2.body.bias : True
+deformable_transformation.deformation.Decoder.restormer3.restormer.0.ffn.project_in.weight : True
+deformable_transformation.deformation.Decoder.restormer3.restormer.0.ffn.dwconv.weight : True
+deformable_transformation.deformation.Decoder.restormer3.restormer.0.ffn.project_out.weight : True
+deformable_transformation.deformation.Decoder.restormer3_fus.Conv.weight : True
+deformable_transformation.deformation.Decoder.restormer3_fus.Conv.bias : True
+deformable_transformation.deformation.Decoder.restormer3_fus.restormer.0.norm1.body.weight : True
+deformable_transformation.deformation.Decoder.restormer3_fus.restormer.0.norm1.body.bias : True
+deformable_transformation.deformation.Decoder.restormer3_fus.restormer.0.attn.temperature : True
+deformable_transformation.deformation.Decoder.restormer3_fus.restormer.0.attn.qkv.weight : True
+deformable_transformation.deformation.Decoder.restormer3_fus.restormer.0.attn.qkv_dwconv.weight : True
+deformable_transformation.deformation.Decoder.restormer3_fus.restormer.0.attn.project_out.weight : True
+deformable_transformation.deformation.Decoder.restormer3_fus.restormer.0.norm2.body.weight : True
+deformable_transformation.deformation.Decoder.restormer3_fus.restormer.0.norm2.body.bias : True
+deformable_transformation.deformation.Decoder.restormer3_fus.restormer.0.ffn.project_in.weight : True
+deformable_transformation.deformation.Decoder.restormer3_fus.restormer.0.ffn.dwconv.weight : True
+deformable_transformation.deformation.Decoder.restormer3_fus.restormer.0.ffn.project_out.weight : True
+deformable_transformation.deformation.Decoder.reg_flow3_a.reg_head.weight : True
+deformable_transformation.deformation.Decoder.reg_flow3_a.reg_head.bias : True
+deformable_transformation.deformation.Decoder.reg_flow3_e.reg_head.weight : True
+deformable_transformation.deformation.Decoder.reg_flow3_e.reg_head.bias : True
+deformable_transformation.deformation.Decoder.reg_flow3_f.reg_head.weight : True
+deformable_transformation.deformation.Decoder.reg_flow3_f.reg_head.bias : True
+deformable_transformation.deformation.Decoder.flow3_a_up.deconv.weight : True
+deformable_transformation.deformation.Decoder.flow3_e_up.deconv.weight : True
+deformable_transformation.deformation.Decoder.flow3_f_up.deconv.weight : True
+deformable_transformation.deformation.Decoder.feature3_up.deconv.weight : True
+deformable_transformation.deformation.Decoder.mobilenetv4_block2.LayerNorm.weight : True
+deformable_transformation.deformation.Decoder.mobilenetv4_block2.LayerNorm.bias : True
+deformable_transformation.deformation.Decoder.mobilenetv4_block2.mobilenetv4_block.uib_0._start_dw_.conv.weight : True
+deformable_transformation.deformation.Decoder.mobilenetv4_block2.mobilenetv4_block.uib_0._expand_conv.conv.weight : True
+deformable_transformation.deformation.Decoder.mobilenetv4_block2.mobilenetv4_block.uib_0._middle_dw.conv.weight : True
+deformable_transformation.deformation.Decoder.mobilenetv4_block2.mobilenetv4_block.uib_0._proj_conv.conv.weight : True
+deformable_transformation.deformation.Decoder.mobilenetv4_block2.conv.0.weight : True
+deformable_transformation.deformation.Decoder.mobilenetv4_block2.conv.0.bias : True
+deformable_transformation.deformation.Decoder.mobilenetv4_block2.conv.2.weight : True
+deformable_transformation.deformation.Decoder.mobilenetv4_block2.conv.2.bias : True
+deformable_transformation.deformation.Decoder.mobilenetv4_block2.ca_layer.Conv_0.weight : True
+deformable_transformation.deformation.Decoder.mobilenetv4_block2.ca_layer.Conv_0.bias : True
+deformable_transformation.deformation.Decoder.mobilenetv4_block2.ca_layer.Conv_1.weight : True
+deformable_transformation.deformation.Decoder.mobilenetv4_block2.ca_layer.Conv_1.bias : True
+deformable_transformation.deformation.Decoder.restormer2.Conv.weight : True
+deformable_transformation.deformation.Decoder.restormer2.Conv.bias : True
+deformable_transformation.deformation.Decoder.restormer2.restormer.0.norm1.body.weight : True
+deformable_transformation.deformation.Decoder.restormer2.restormer.0.norm1.body.bias : True
+deformable_transformation.deformation.Decoder.restormer2.restormer.0.attn.temperature : True
+deformable_transformation.deformation.Decoder.restormer2.restormer.0.attn.qkv.weight : True
+deformable_transformation.deformation.Decoder.restormer2.restormer.0.attn.qkv_dwconv.weight : True
+deformable_transformation.deformation.Decoder.restormer2.restormer.0.attn.project_out.weight : True
+deformable_transformation.deformation.Decoder.restormer2.restormer.0.norm2.body.weight : True
+deformable_transformation.deformation.Decoder.restormer2.restormer.0.norm2.body.bias : True
+deformable_transformation.deformation.Decoder.restormer2.restormer.0.ffn.project_in.weight : True
+deformable_transformation.deformation.Decoder.restormer2.restormer.0.ffn.dwconv.weight : True
+deformable_transformation.deformation.Decoder.restormer2.restormer.0.ffn.project_out.weight : True
+deformable_transformation.deformation.Decoder.restormer2_fus.Conv.weight : True
+deformable_transformation.deformation.Decoder.restormer2_fus.Conv.bias : True
+deformable_transformation.deformation.Decoder.restormer2_fus.restormer.0.norm1.body.weight : True
+deformable_transformation.deformation.Decoder.restormer2_fus.restormer.0.norm1.body.bias : True
+deformable_transformation.deformation.Decoder.restormer2_fus.restormer.0.attn.temperature : True
+deformable_transformation.deformation.Decoder.restormer2_fus.restormer.0.attn.qkv.weight : True
+deformable_transformation.deformation.Decoder.restormer2_fus.restormer.0.attn.qkv_dwconv.weight : True
+deformable_transformation.deformation.Decoder.restormer2_fus.restormer.0.attn.project_out.weight : True
+deformable_transformation.deformation.Decoder.restormer2_fus.restormer.0.norm2.body.weight : True
+deformable_transformation.deformation.Decoder.restormer2_fus.restormer.0.norm2.body.bias : True
+deformable_transformation.deformation.Decoder.restormer2_fus.restormer.0.ffn.project_in.weight : True
+deformable_transformation.deformation.Decoder.restormer2_fus.restormer.0.ffn.dwconv.weight : True
+deformable_transformation.deformation.Decoder.restormer2_fus.restormer.0.ffn.project_out.weight : True
+deformable_transformation.deformation.Decoder.reg_flow2_a.reg_head.weight : True
+deformable_transformation.deformation.Decoder.reg_flow2_a.reg_head.bias : True
+deformable_transformation.deformation.Decoder.reg_flow2_e.reg_head.weight : True
+deformable_transformation.deformation.Decoder.reg_flow2_e.reg_head.bias : True
+deformable_transformation.deformation.Decoder.reg_flow2_f.reg_head.weight : True
+deformable_transformation.deformation.Decoder.reg_flow2_f.reg_head.bias : True
+deformable_transformation.deformation.Decoder.flow2_a_up.deconv.weight : True
+deformable_transformation.deformation.Decoder.flow2_e_up.deconv.weight : True
+deformable_transformation.deformation.Decoder.flow2_f_up.deconv.weight : True
+deformable_transformation.deformation.Decoder.feature2_up.deconv.weight : True
+deformable_transformation.deformation.Decoder.mobilenetv4_block1.LayerNorm.weight : True
+deformable_transformation.deformation.Decoder.mobilenetv4_block1.LayerNorm.bias : True
+deformable_transformation.deformation.Decoder.mobilenetv4_block1.mobilenetv4_block.uib_0._start_dw_.conv.weight : True
+deformable_transformation.deformation.Decoder.mobilenetv4_block1.mobilenetv4_block.uib_0._expand_conv.conv.weight : True
+deformable_transformation.deformation.Decoder.mobilenetv4_block1.mobilenetv4_block.uib_0._middle_dw.conv.weight : True
+deformable_transformation.deformation.Decoder.mobilenetv4_block1.mobilenetv4_block.uib_0._proj_conv.conv.weight : True
+deformable_transformation.deformation.Decoder.mobilenetv4_block1.conv.0.weight : True
+deformable_transformation.deformation.Decoder.mobilenetv4_block1.conv.0.bias : True
+deformable_transformation.deformation.Decoder.mobilenetv4_block1.conv.2.weight : True
+deformable_transformation.deformation.Decoder.mobilenetv4_block1.conv.2.bias : True
+deformable_transformation.deformation.Decoder.mobilenetv4_block1.ca_layer.Conv_0.weight : True
+deformable_transformation.deformation.Decoder.mobilenetv4_block1.ca_layer.Conv_0.bias : True
+deformable_transformation.deformation.Decoder.mobilenetv4_block1.ca_layer.Conv_1.weight : True
+deformable_transformation.deformation.Decoder.mobilenetv4_block1.ca_layer.Conv_1.bias : True
+deformable_transformation.deformation.Decoder.restormer1.Conv.weight : True
+deformable_transformation.deformation.Decoder.restormer1.Conv.bias : True
+deformable_transformation.deformation.Decoder.restormer1.restormer.0.norm1.body.weight : True
+deformable_transformation.deformation.Decoder.restormer1.restormer.0.norm1.body.bias : True
+deformable_transformation.deformation.Decoder.restormer1.restormer.0.attn.temperature : True
+deformable_transformation.deformation.Decoder.restormer1.restormer.0.attn.qkv.weight : True
+deformable_transformation.deformation.Decoder.restormer1.restormer.0.attn.qkv_dwconv.weight : True
+deformable_transformation.deformation.Decoder.restormer1.restormer.0.attn.project_out.weight : True
+deformable_transformation.deformation.Decoder.restormer1.restormer.0.norm2.body.weight : True
+deformable_transformation.deformation.Decoder.restormer1.restormer.0.norm2.body.bias : True
+deformable_transformation.deformation.Decoder.restormer1.restormer.0.ffn.project_in.weight : True
+deformable_transformation.deformation.Decoder.restormer1.restormer.0.ffn.dwconv.weight : True
+deformable_transformation.deformation.Decoder.restormer1.restormer.0.ffn.project_out.weight : True
+deformable_transformation.deformation.Decoder.restormer1_fus.Conv.weight : True
+deformable_transformation.deformation.Decoder.restormer1_fus.Conv.bias : True
+deformable_transformation.deformation.Decoder.restormer1_fus.restormer.0.norm1.body.weight : True
+deformable_transformation.deformation.Decoder.restormer1_fus.restormer.0.norm1.body.bias : True
+deformable_transformation.deformation.Decoder.restormer1_fus.restormer.0.attn.temperature : True
+deformable_transformation.deformation.Decoder.restormer1_fus.restormer.0.attn.qkv.weight : True
+deformable_transformation.deformation.Decoder.restormer1_fus.restormer.0.attn.qkv_dwconv.weight : True
+deformable_transformation.deformation.Decoder.restormer1_fus.restormer.0.attn.project_out.weight : True
+deformable_transformation.deformation.Decoder.restormer1_fus.restormer.0.norm2.body.weight : True
+deformable_transformation.deformation.Decoder.restormer1_fus.restormer.0.norm2.body.bias : True
+deformable_transformation.deformation.Decoder.restormer1_fus.restormer.0.ffn.project_in.weight : True
+deformable_transformation.deformation.Decoder.restormer1_fus.restormer.0.ffn.dwconv.weight : True
+deformable_transformation.deformation.Decoder.restormer1_fus.restormer.0.ffn.project_out.weight : True
+deformable_transformation.deformation.Decoder.reg_flow1_a.reg_head.weight : True
+deformable_transformation.deformation.Decoder.reg_flow1_a.reg_head.bias : True
+deformable_transformation.deformation.Decoder.reg_flow1_e.reg_head.weight : True
+deformable_transformation.deformation.Decoder.reg_flow1_e.reg_head.bias : True
+deformable_transformation.deformation.Decoder.reg_flow1_f.reg_head.weight : True
+deformable_transformation.deformation.Decoder.reg_flow1_f.reg_head.bias : True
+feature_fusion.layer1.0.weight : False
+feature_fusion.layer1.0.bias : False
+feature_fusion.layer1.1.weight : False
+feature_fusion.layer1.1.bias : False
+feature_fusion.layer2.0.weight : False
+feature_fusion.layer2.0.bias : False
+feature_fusion.layer2.1.weight : False
+feature_fusion.layer2.1.bias : False
+feature_fusion.layer2.3.weight : False
+feature_fusion.layer2.3.bias : False
+feature_fusion.layer2.4.weight : False
+feature_fusion.layer2.4.bias : False
+feature_fusion.layer3.0.weight : False
+feature_fusion.layer3.0.bias : False
+feature_fusion.layer3.1.weight : False
+feature_fusion.layer3.1.bias : False
+feature_fusion.layer3.3.weight : False
+feature_fusion.layer3.3.bias : False
+feature_fusion.layer3.4.weight : False
+feature_fusion.layer3.4.bias : False
+feature_reconstruction.final_layers1.0.weight : False
+feature_reconstruction.final_layers1.0.bias : False
+feature_reconstruction.final_layers1.1.weight : False
+feature_reconstruction.final_layers1.1.bias : False
+feature_reconstruction.final_layers1.3.weight : False
+feature_reconstruction.final_layers1.3.bias : False
+feature_reconstruction.final_layers1.4.weight : False
+feature_reconstruction.final_layers1.4.bias : False
+feature_reconstruction.final_layers2.0.weight : False
+feature_reconstruction.final_layers2.0.bias : False
+feature_reconstruction.final_layers2.1.weight : False
+feature_reconstruction.final_layers2.1.bias : False
+feature_reconstruction.final_layers2.3.weight : False
+feature_reconstruction.final_layers2.3.bias : False
+reconstruction_gradient_ir.layer.0.weight : False
+reconstruction_gradient_ir.layer.0.bias : False
+reconstruction_gradient_ir.layer.1.weight : False
+reconstruction_gradient_ir.layer.1.bias : False
+reconstruction_gradient_ir.layer.3.weight : False
+reconstruction_gradient_ir.layer.3.bias : False
+reconstruction_gradient_ir.layer.4.weight : False
+reconstruction_gradient_ir.layer.4.bias : False
+reconstruction_gradient_ir.layer.6.weight : False
+reconstruction_gradient_ir.layer.6.bias : False
+reconstruction_gradient_ir.layer.7.weight : False
+reconstruction_gradient_ir.layer.7.bias : False
+reconstruction_gradient_ir.layer.9.weight : False
+reconstruction_gradient_ir.layer.9.bias : False
+reconstruction_gradient_ir.layer.10.weight : False
+reconstruction_gradient_ir.layer.10.bias : False
+reconstruction_gradient_ir.layer.12.weight : False
+reconstruction_gradient_ir.layer.12.bias : False
+reconstruction_gradient_ir.layer.13.weight : False
+reconstruction_gradient_ir.layer.13.bias : False
+reconstruction_gradient_ir.layer.15.weight : False
+reconstruction_gradient_ir.layer.15.bias : False
+reconstruction_gradient_vi.layer.0.weight : False
+reconstruction_gradient_vi.layer.0.bias : False
+reconstruction_gradient_vi.layer.1.weight : False
+reconstruction_gradient_vi.layer.1.bias : False
+reconstruction_gradient_vi.layer.3.weight : False
+reconstruction_gradient_vi.layer.3.bias : False
+reconstruction_gradient_vi.layer.4.weight : False
+reconstruction_gradient_vi.layer.4.bias : False
+reconstruction_gradient_vi.layer.6.weight : False
+reconstruction_gradient_vi.layer.6.bias : False
+reconstruction_gradient_vi.layer.7.weight : False
+reconstruction_gradient_vi.layer.7.bias : False
+reconstruction_gradient_vi.layer.9.weight : False
+reconstruction_gradient_vi.layer.9.bias : False
+reconstruction_gradient_vi.layer.10.weight : False
+reconstruction_gradient_vi.layer.10.bias : False
+reconstruction_gradient_vi.layer.12.weight : False
+reconstruction_gradient_vi.layer.12.bias : False
+reconstruction_gradient_vi.layer.13.weight : False
+reconstruction_gradient_vi.layer.13.bias : False
+reconstruction_gradient_vi.layer.15.weight : False
+reconstruction_gradient_vi.layer.15.bias : False
+选择使用 Adam 优化器...
+使用学习率更新策略... ['True', '800']
+数据准备已完成，正在准备模型训练...
+[31m Epoch 1/4000:   0%|          | 0/50 [00:00<?, ?it/s][31m Epoch 1/4000:   0%|          | 0/50 [00:01<?, ?it/s, MoveStep: 1/50, MoveLoss: -0.2362][31m Epoch 1/4000:   2%|▏         | 1/50 [00:01<01:33,  1.91s/it, MoveStep: 1/50, MoveLoss: -0.2362][31m Epoch 1/4000:   2%|▏         | 1/50 [00:02<01:33,  1.91s/it, MoveStep: 2/50, MoveLoss: -0.1874][31m Epoch 1/4000:   4%|▍         | 2/50 [00:02<00:58,  1.21s/it, MoveStep: 2/50, MoveLoss: -0.1874][31m Epoch 1/4000:   4%|▍         | 2/50 [00:03<00:58,  1.21s/it, MoveStep: 3/50, MoveLoss: -0.1403][31m Epoch 1/4000:   6%|▌         | 3/50 [00:03<00:46,  1.02it/s, MoveStep: 3/50, MoveLoss: -0.1403][31m Epoch 1/4000:   6%|▌         | 3/50 [00:04<00:46,  1.02it/s, MoveStep: 4/50, MoveLoss: -0.1410][31m Epoch 1/4000:   8%|▊         | 4/50 [00:04<00:40,  1.14it/s, MoveStep: 4/50, MoveLoss: -0.1410][31m Epoch 1/4000:   8%|▊         | 4/50 [00:04<00:40,  1.14it/s, MoveStep: 5/50, MoveLoss: -0.1628][31m Epoch 1/4000:  10%|█         | 5/50 [00:04<00:36,  1.22it/s, MoveStep: 5/50, MoveLoss: -0.1628][31m Epoch 1/4000:  10%|█         | 5/50 [00:05<00:36,  1.22it/s, MoveStep: 6/50, MoveLoss: -0.1198][31m Epoch 1/4000:  12%|█▏        | 6/50 [00:05<00:34,  1.28it/s, MoveStep: 6/50, MoveLoss: -0.1198][31m Epoch 1/4000:  12%|█▏        | 6/50 [00:06<00:34,  1.28it/s, MoveStep: 7/50, MoveLoss: -0.1580][31m Epoch 1/4000:  14%|█▍        | 7/50 [00:06<00:32,  1.31it/s, MoveStep: 7/50, MoveLoss: -0.1580][31m Epoch 1/4000:  14%|█▍        | 7/50 [00:06<00:32,  1.31it/s, MoveStep: 8/50, MoveLoss: -0.1501][31m Epoch 1/4000:  16%|█▌        | 8/50 [00:06<00:31,  1.34it/s, MoveStep: 8/50, MoveLoss: -0.1501][31m Epoch 1/4000:  16%|█▌        | 8/50 [00:07<00:31,  1.34it/s, MoveStep: 9/50, MoveLoss: -0.1724][31m Epoch 1/4000:  18%|█▊        | 9/50 [00:07<00:30,  1.33it/s, MoveStep: 9/50, MoveLoss: -0.1724][31m Epoch 1/4000:  18%|█▊        | 9/50 [00:08<00:30,  1.33it/s, MoveStep: 10/50, MoveLoss: -0.1642][31m Epoch 1/4000:  20%|██        | 10/50 [00:08<00:29,  1.35it/s, MoveStep: 10/50, MoveLoss: -0.1642][31m Epoch 1/4000:  20%|██        | 10/50 [00:09<00:29,  1.35it/s, MoveStep: 11/50, MoveLoss: -0.1874][31m Epoch 1/4000:  22%|██▏       | 11/50 [00:09<00:28,  1.36it/s, MoveStep: 11/50, MoveLoss: -0.1874][31m Epoch 1/4000:  22%|██▏       | 11/50 [00:09<00:28,  1.36it/s, MoveStep: 12/50, MoveLoss: -0.1668][31m Epoch 1/4000:  24%|██▍       | 12/50 [00:09<00:27,  1.37it/s, MoveStep: 12/50, MoveLoss: -0.1668][31m Epoch 1/4000:  24%|██▍       | 12/50 [00:10<00:27,  1.37it/s, MoveStep: 13/50, MoveLoss: -0.1577][31m Epoch 1/4000:  26%|██▌       | 13/50 [00:10<00:26,  1.38it/s, MoveStep: 13/50, MoveLoss: -0.1577][31m Epoch 1/4000:  26%|██▌       | 13/50 [00:11<00:26,  1.38it/s, MoveStep: 14/50, MoveLoss: -0.1170][31m Epoch 1/4000:  28%|██▊       | 14/50 [00:11<00:25,  1.39it/s, MoveStep: 14/50, MoveLoss: -0.1170][31m Epoch 1/4000:  28%|██▊       | 14/50 [00:11<00:25,  1.39it/s, MoveStep: 15/50, MoveLoss: -0.1641][31m Epoch 1/4000:  30%|███       | 15/50 [00:11<00:25,  1.39it/s, MoveStep: 15/50, MoveLoss: -0.1641][31m Epoch 1/4000:  30%|███       | 15/50 [00:12<00:25,  1.39it/s, MoveStep: 16/50, MoveLoss: -0.1490][31m Epoch 1/4000:  32%|███▏      | 16/50 [00:12<00:24,  1.39it/s, MoveStep: 16/50, MoveLoss: -0.1490][31m Epoch 1/4000:  32%|███▏      | 16/50 [00:13<00:24,  1.39it/s, MoveStep: 17/50, MoveLoss: -0.1862][31m Epoch 1/4000:  34%|███▍      | 17/50 [00:13<00:23,  1.39it/s, MoveStep: 17/50, MoveLoss: -0.1862][31m Epoch 1/4000:  34%|███▍      | 17/50 [00:14<00:23,  1.39it/s, MoveStep: 18/50, MoveLoss: -0.1692][31m Epoch 1/4000:  36%|███▌      | 18/50 [00:14<00:22,  1.39it/s, MoveStep: 18/50, MoveLoss: -0.1692][31m Epoch 1/4000:  36%|███▌      | 18/50 [00:14<00:22,  1.39it/s, MoveStep: 19/50, MoveLoss: -0.2513][31m Epoch 1/4000:  38%|███▊      | 19/50 [00:14<00:22,  1.40it/s, MoveStep: 19/50, MoveLoss: -0.2513][31m Epoch 1/4000:  38%|███▊      | 19/50 [00:15<00:22,  1.40it/s, MoveStep: 20/50, MoveLoss: -0.1370][31m Epoch 1/4000:  40%|████      | 20/50 [00:15<00:21,  1.40it/s, MoveStep: 20/50, MoveLoss: -0.1370][31m Epoch 1/4000:  40%|████      | 20/50 [00:16<00:21,  1.40it/s, MoveStep: 21/50, MoveLoss: -0.1339][31m Epoch 1/4000:  42%|████▏     | 21/50 [00:16<00:20,  1.40it/s, MoveStep: 21/50, MoveLoss: -0.1339][31m Epoch 1/4000:  42%|████▏     | 21/50 [00:16<00:20,  1.40it/s, MoveStep: 22/50, MoveLoss: -0.1526][31m Epoch 1/4000:  44%|████▍     | 22/50 [00:16<00:20,  1.40it/s, MoveStep: 22/50, MoveLoss: -0.1526][31m Epoch 1/4000:  44%|████▍     | 22/50 [00:17<00:20,  1.40it/s, MoveStep: 23/50, MoveLoss: -0.1816][31m Epoch 1/4000:  46%|████▌     | 23/50 [00:17<00:19,  1.40it/s, MoveStep: 23/50, MoveLoss: -0.1816][31m Epoch 1/4000:  46%|████▌     | 23/50 [00:18<00:19,  1.40it/s, MoveStep: 24/50, MoveLoss: -0.1731][31m Epoch 1/4000:  48%|████▊     | 24/50 [00:18<00:18,  1.40it/s, MoveStep: 24/50, MoveLoss: -0.1731][31m Epoch 1/4000:  48%|████▊     | 24/50 [00:19<00:18,  1.40it/s, MoveStep: 25/50, MoveLoss: -0.1846][31m Epoch 1/4000:  50%|█████     | 25/50 [00:19<00:17,  1.40it/s, MoveStep: 25/50, MoveLoss: -0.1846][31m Epoch 1/4000:  50%|█████     | 25/50 [00:19<00:17,  1.40it/s, MoveStep: 26/50, MoveLoss: -0.1500][31m Epoch 1/4000:  52%|█████▏    | 26/50 [00:19<00:17,  1.40it/s, MoveStep: 26/50, MoveLoss: -0.1500][31m Epoch 1/4000:  52%|█████▏    | 26/50 [00:20<00:17,  1.40it/s, MoveStep: 27/50, MoveLoss: -0.1579][31m Epoch 1/4000:  54%|█████▍    | 27/50 [00:20<00:16,  1.40it/s, MoveStep: 27/50, MoveLoss: -0.1579][31m Epoch 1/4000:  54%|█████▍    | 27/50 [00:21<00:16,  1.40it/s, MoveStep: 28/50, MoveLoss: -0.1471][31m Epoch 1/4000:  56%|█████▌    | 28/50 [00:21<00:15,  1.40it/s, MoveStep: 28/50, MoveLoss: -0.1471][31m Epoch 1/4000:  56%|█████▌    | 28/50 [00:21<00:15,  1.40it/s, MoveStep: 29/50, MoveLoss: -0.1390][31m Epoch 1/4000:  58%|█████▊    | 29/50 [00:21<00:15,  1.40it/s, MoveStep: 29/50, MoveLoss: -0.1390][31m Epoch 1/4000:  58%|█████▊    | 29/50 [00:22<00:15,  1.40it/s, MoveStep: 30/50, MoveLoss: -0.2011][31m Epoch 1/4000:  60%|██████    | 30/50 [00:22<00:14,  1.40it/s, MoveStep: 30/50, MoveLoss: -0.2011][31m Epoch 1/4000:  60%|██████    | 30/50 [00:23<00:14,  1.40it/s, MoveStep: 31/50, MoveLoss: -0.1693][31m Epoch 1/4000:  62%|██████▏   | 31/50 [00:23<00:13,  1.40it/s, MoveStep: 31/50, MoveLoss: -0.1693][31m Epoch 1/4000:  62%|██████▏   | 31/50 [00:24<00:13,  1.40it/s, MoveStep: 32/50, MoveLoss: -0.2016][31m Epoch 1/4000:  64%|██████▍   | 32/50 [00:24<00:12,  1.40it/s, MoveStep: 32/50, MoveLoss: -0.2016][31m Epoch 1/4000:  64%|██████▍   | 32/50 [00:24<00:12,  1.40it/s, MoveStep: 33/50, MoveLoss: -0.1565][31m Epoch 1/4000:  66%|██████▌   | 33/50 [00:24<00:12,  1.40it/s, MoveStep: 33/50, MoveLoss: -0.1565][31m Epoch 1/4000:  66%|██████▌   | 33/50 [00:25<00:12,  1.40it/s, MoveStep: 34/50, MoveLoss: -0.1975][31m Epoch 1/4000:  68%|██████▊   | 34/50 [00:25<00:11,  1.40it/s, MoveStep: 34/50, MoveLoss: -0.1975][31m Epoch 1/4000:  68%|██████▊   | 34/50 [00:26<00:11,  1.40it/s, MoveStep: 35/50, MoveLoss: -0.2067][31m Epoch 1/4000:  70%|███████   | 35/50 [00:26<00:10,  1.40it/s, MoveStep: 35/50, MoveLoss: -0.2067][31m Epoch 1/4000:  70%|███████   | 35/50 [00:27<00:10,  1.40it/s, MoveStep: 36/50, MoveLoss: -0.1662][31m Epoch 1/4000:  72%|███████▏  | 36/50 [00:27<00:10,  1.40it/s, MoveStep: 36/50, MoveLoss: -0.1662][31m Epoch 1/4000:  72%|███████▏  | 36/50 [00:27<00:10,  1.40it/s, MoveStep: 37/50, MoveLoss: -0.1899][31m Epoch 1/4000:  74%|███████▍  | 37/50 [00:27<00:09,  1.40it/s, MoveStep: 37/50, MoveLoss: -0.1899][31m Epoch 1/4000:  74%|███████▍  | 37/50 [00:28<00:09,  1.40it/s, MoveStep: 38/50, MoveLoss: -0.1718][31m Epoch 1/4000:  76%|███████▌  | 38/50 [00:28<00:08,  1.40it/s, MoveStep: 38/50, MoveLoss: -0.1718][31m Epoch 1/4000:  76%|███████▌  | 38/50 [00:29<00:08,  1.40it/s, MoveStep: 39/50, MoveLoss: -0.1281][31m Epoch 1/4000:  78%|███████▊  | 39/50 [00:29<00:07,  1.40it/s, MoveStep: 39/50, MoveLoss: -0.1281][31m Epoch 1/4000:  78%|███████▊  | 39/50 [00:29<00:07,  1.40it/s, MoveStep: 40/50, MoveLoss: -0.1156][31m Epoch 1/4000:  80%|████████  | 40/50 [00:29<00:07,  1.40it/s, MoveStep: 40/50, MoveLoss: -0.1156][31m Epoch 1/4000:  80%|████████  | 40/50 [00:30<00:07,  1.40it/s, MoveStep: 41/50, MoveLoss: -0.1459][31m Epoch 1/4000:  82%|████████▏ | 41/50 [00:30<00:06,  1.40it/s, MoveStep: 41/50, MoveLoss: -0.1459][31m Epoch 1/4000:  82%|████████▏ | 41/50 [00:31<00:06,  1.40it/s, MoveStep: 42/50, MoveLoss: -0.1140][31m Epoch 1/4000:  84%|████████▍ | 42/50 [00:31<00:05,  1.40it/s, MoveStep: 42/50, MoveLoss: -0.1140][31m Epoch 1/4000:  84%|████████▍ | 42/50 [00:32<00:05,  1.40it/s, MoveStep: 43/50, MoveLoss: -0.1460][31m Epoch 1/4000:  86%|████████▌ | 43/50 [00:32<00:05,  1.40it/s, MoveStep: 43/50, MoveLoss: -0.1460][31m Epoch 1/4000:  86%|████████▌ | 43/50 [00:32<00:05,  1.40it/s, MoveStep: 44/50, MoveLoss: -0.1444][31m Epoch 1/4000:  88%|████████▊ | 44/50 [00:32<00:04,  1.40it/s, MoveStep: 44/50, MoveLoss: -0.1444][31m Epoch 1/4000:  88%|████████▊ | 44/50 [00:33<00:04,  1.40it/s, MoveStep: 45/50, MoveLoss: -0.1414][31m Epoch 1/4000:  90%|█████████ | 45/50 [00:33<00:03,  1.40it/s, MoveStep: 45/50, MoveLoss: -0.1414][31m Epoch 1/4000:  90%|█████████ | 45/50 [00:34<00:03,  1.40it/s, MoveStep: 46/50, MoveLoss: -0.1424][31m Epoch 1/4000:  92%|█████████▏| 46/50 [00:34<00:02,  1.38it/s, MoveStep: 46/50, MoveLoss: -0.1424][31m Epoch 1/4000:  92%|█████████▏| 46/50 [00:34<00:02,  1.38it/s, MoveStep: 47/50, MoveLoss: -0.2045][31m Epoch 1/4000:  94%|█████████▍| 47/50 [00:34<00:02,  1.38it/s, MoveStep: 47/50, MoveLoss: -0.2045][31m Epoch 1/4000:  94%|█████████▍| 47/50 [00:35<00:02,  1.38it/s, MoveStep: 48/50, MoveLoss: -0.1889][31m Epoch 1/4000:  96%|█████████▌| 48/50 [00:35<00:01,  1.39it/s, MoveStep: 48/50, MoveLoss: -0.1889][31m Epoch 1/4000:  96%|█████████▌| 48/50 [00:36<00:01,  1.39it/s, MoveStep: 49/50, MoveLoss: -0.1376][31m Epoch 1/4000:  98%|█████████▊| 49/50 [00:36<00:00,  1.39it/s, MoveStep: 49/50, MoveLoss: -0.1376][31m Epoch 1/4000:  98%|█████████▊| 49/50 [00:37<00:00,  1.39it/s, MoveStep: 50/50, MoveLoss: -0.1885][31m Epoch 1/4000: 100%|██████████| 50/50 [00:37<00:00,  1.39it/s, MoveStep: 50/50, MoveLoss: -0.1885][31m Epoch 1/4000: 100%|██████████| 50/50 [00:37<00:00,  1.35it/s, MoveStep: 50/50, MoveLoss: -0.1885]
+[0m
+flow_loss= 0.0009026132756844163 reg_loss= -0.2599927484989166 ir_img_loss= 0.07061288505792618
+learning=9.999998473295649e-05, 总损失为:-8.1957，最佳损失为第1/1e:-8.19565513, 训练时间：0.0000 / 43.0000小时...24-1119-1355-46
+
+[31m Epoch 2/4000:   0%|          | 0/50 [00:00<?, ?it/s][31m Epoch 2/4000:   0%|          | 0/50 [00:00<?, ?it/s, MoveStep: 1/50, MoveLoss: -0.1283][31m Epoch 2/4000:   2%|▏         | 1/50 [00:00<00:36,  1.33it/s, MoveStep: 1/50, MoveLoss: -0.1283][31m Epoch 2/4000:   2%|▏         | 1/50 [00:01<00:36,  1.33it/s, MoveStep: 2/50, MoveLoss: -0.2017][31m Epoch 2/4000:   4%|▍         | 2/50 [00:01<00:35,  1.37it/s, MoveStep: 2/50, MoveLoss: -0.2017][31m Epoch 2/4000:   4%|▍         | 2/50 [00:02<00:35,  1.37it/s, MoveStep: 3/50, MoveLoss: -0.1382][31m Epoch 2/4000:   6%|▌         | 3/50 [00:02<00:34,  1.38it/s, MoveStep: 3/50, MoveLoss: -0.1382][31m Epoch 2/4000:   6%|▌         | 3/50 [00:02<00:34,  1.38it/s, MoveStep: 4/50, MoveLoss: -0.1770][31m Epoch 2/4000:   8%|▊         | 4/50 [00:02<00:33,  1.39it/s, MoveStep: 4/50, MoveLoss: -0.1770][31m Epoch 2/4000:   8%|▊         | 4/50 [00:03<00:33,  1.39it/s, MoveStep: 5/50, MoveLoss: -0.1799][31m Epoch 2/4000:  10%|█         | 5/50 [00:03<00:32,  1.39it/s, MoveStep: 5/50, MoveLoss: -0.1799][31m Epoch 2/4000:  10%|█         | 5/50 [00:04<00:32,  1.39it/s, MoveStep: 6/50, MoveLoss: -0.1676][31m Epoch 2/4000:  12%|█▏        | 6/50 [00:04<00:31,  1.39it/s, MoveStep: 6/50, MoveLoss: -0.1676][31m Epoch 2/4000:  12%|█▏        | 6/50 [00:05<00:31,  1.39it/s, MoveStep: 7/50, MoveLoss: -0.1801][31m Epoch 2/4000:  14%|█▍        | 7/50 [00:05<00:30,  1.39it/s, MoveStep: 7/50, MoveLoss: -0.1801][31m Epoch 2/4000:  14%|█▍        | 7/50 [00:05<00:30,  1.39it/s, MoveStep: 8/50, MoveLoss: -0.2085][31m Epoch 2/4000:  16%|█▌        | 8/50 [00:05<00:30,  1.39it/s, MoveStep: 8/50, MoveLoss: -0.2085][31m Epoch 2/4000:  16%|█▌        | 8/50 [00:06<00:30,  1.39it/s, MoveStep: 9/50, MoveLoss: -0.1682][31m Epoch 2/4000:  18%|█▊        | 9/50 [00:06<00:29,  1.40it/s, MoveStep: 9/50, MoveLoss: -0.1682][31m Epoch 2/4000:  18%|█▊        | 9/50 [00:07<00:29,  1.40it/s, MoveStep: 10/50, MoveLoss: -0.1524][31m Epoch 2/4000:  20%|██        | 10/50 [00:07<00:28,  1.40it/s, MoveStep: 10/50, MoveLoss: -0.1524][31m Epoch 2/4000:  20%|██        | 10/50 [00:07<00:28,  1.40it/s, MoveStep: 11/50, MoveLoss: -0.1998][31m Epoch 2/4000:  22%|██▏       | 11/50 [00:07<00:27,  1.40it/s, MoveStep: 11/50, MoveLoss: -0.1998][31m Epoch 2/4000:  22%|██▏       | 11/50 [00:08<00:27,  1.40it/s, MoveStep: 12/50, MoveLoss: -0.1717][31m Epoch 2/4000:  24%|██▍       | 12/50 [00:08<00:27,  1.40it/s, MoveStep: 12/50, MoveLoss: -0.1717][31m Epoch 2/4000:  24%|██▍       | 12/50 [00:09<00:27,  1.40it/s, MoveStep: 13/50, MoveLoss: -0.1318][31m Epoch 2/4000:  26%|██▌       | 13/50 [00:09<00:26,  1.40it/s, MoveStep: 13/50, MoveLoss: -0.1318][31m Epoch 2/4000:  26%|██▌       | 13/50 [00:10<00:26,  1.40it/s, MoveStep: 14/50, MoveLoss: -0.1655][31m Epoch 2/4000:  28%|██▊       | 14/50 [00:10<00:25,  1.40it/s, MoveStep: 14/50, MoveLoss: -0.1655][31m Epoch 2/4000:  28%|██▊       | 14/50 [00:10<00:25,  1.40it/s, MoveStep: 15/50, MoveLoss: -0.1487][31m Epoch 2/4000:  30%|███       | 15/50 [00:10<00:25,  1.40it/s, MoveStep: 15/50, MoveLoss: -0.1487][31m Epoch 2/4000:  30%|███       | 15/50 [00:11<00:25,  1.40it/s, MoveStep: 16/50, MoveLoss: -0.1468][31m Epoch 2/4000:  32%|███▏      | 16/50 [00:11<00:24,  1.40it/s, MoveStep: 16/50, MoveLoss: -0.1468][31m Epoch 2/4000:  32%|███▏      | 16/50 [00:12<00:24,  1.40it/s, MoveStep: 17/50, MoveLoss: -0.2055][31m Epoch 2/4000:  34%|███▍      | 17/50 [00:12<00:23,  1.40it/s, MoveStep: 17/50, MoveLoss: -0.2055][31m Epoch 2/4000:  34%|███▍      | 17/50 [00:12<00:23,  1.40it/s, MoveStep: 18/50, MoveLoss: -0.2136][31m Epoch 2/4000:  36%|███▌      | 18/50 [00:12<00:22,  1.40it/s, MoveStep: 18/50, MoveLoss: -0.2136][31m Epoch 2/4000:  36%|███▌      | 18/50 [00:13<00:22,  1.40it/s, MoveStep: 19/50, MoveLoss: -0.1922][31m Epoch 2/4000:  38%|███▊      | 19/50 [00:13<00:22,  1.40it/s, MoveStep: 19/50, MoveLoss: -0.1922][31m Epoch 2/4000:  38%|███▊      | 19/50 [00:14<00:22,  1.40it/s, MoveStep: 20/50, MoveLoss: -0.1151][31m Epoch 2/4000:  40%|████      | 20/50 [00:14<00:21,  1.40it/s, MoveStep: 20/50, MoveLoss: -0.1151][31m Epoch 2/4000:  40%|████      | 20/50 [00:15<00:21,  1.40it/s, MoveStep: 21/50, MoveLoss: -0.1498][31m Epoch 2/4000:  42%|████▏     | 21/50 [00:15<00:20,  1.40it/s, MoveStep: 21/50, MoveLoss: -0.1498][31m Epoch 2/4000:  42%|████▏     | 21/50 [00:15<00:20,  1.40it/s, MoveStep: 22/50, MoveLoss: -0.1827][31m Epoch 2/4000:  44%|████▍     | 22/50 [00:15<00:20,  1.40it/s, MoveStep: 22/50, MoveLoss: -0.1827][31m Epoch 2/4000:  44%|████▍     | 22/50 [00:16<00:20,  1.40it/s, MoveStep: 23/50, MoveLoss: -0.1802][31m Epoch 2/4000:  46%|████▌     | 23/50 [00:16<00:19,  1.40it/s, MoveStep: 23/50, MoveLoss: -0.1802][31m Epoch 2/4000:  46%|████▌     | 23/50 [00:17<00:19,  1.40it/s, MoveStep: 24/50, MoveLoss: -0.2014][31m Epoch 2/4000:  48%|████▊     | 24/50 [00:17<00:18,  1.40it/s, MoveStep: 24/50, MoveLoss: -0.2014][31m Epoch 2/4000:  48%|████▊     | 24/50 [00:17<00:18,  1.40it/s, MoveStep: 25/50, MoveLoss: -0.1881][31m Epoch 2/4000:  50%|█████     | 25/50 [00:17<00:17,  1.40it/s, MoveStep: 25/50, MoveLoss: -0.1881][31m Epoch 2/4000:  50%|█████     | 25/50 [00:18<00:17,  1.40it/s, MoveStep: 26/50, MoveLoss: -0.1705][31m Epoch 2/4000:  52%|█████▏    | 26/50 [00:18<00:17,  1.40it/s, MoveStep: 26/50, MoveLoss: -0.1705][31m Epoch 2/4000:  52%|█████▏    | 26/50 [00:19<00:17,  1.40it/s, MoveStep: 27/50, MoveLoss: -0.1482][31m Epoch 2/4000:  54%|█████▍    | 27/50 [00:19<00:16,  1.39it/s, MoveStep: 27/50, MoveLoss: -0.1482][31m Epoch 2/4000:  54%|█████▍    | 27/50 [00:20<00:16,  1.39it/s, MoveStep: 28/50, MoveLoss: -0.1075][31m Epoch 2/4000:  56%|█████▌    | 28/50 [00:20<00:16,  1.37it/s, MoveStep: 28/50, MoveLoss: -0.1075][31m Epoch 2/4000:  56%|█████▌    | 28/50 [00:20<00:16,  1.37it/s, MoveStep: 29/50, MoveLoss: -0.2355][31m Epoch 2/4000:  58%|█████▊    | 29/50 [00:20<00:15,  1.38it/s, MoveStep: 29/50, MoveLoss: -0.2355][31m Epoch 2/4000:  58%|█████▊    | 29/50 [00:21<00:15,  1.38it/s, MoveStep: 30/50, MoveLoss: -0.1411][31m Epoch 2/4000:  60%|██████    | 30/50 [00:21<00:14,  1.38it/s, MoveStep: 30/50, MoveLoss: -0.1411][31m Epoch 2/4000:  60%|██████    | 30/50 [00:22<00:14,  1.38it/s, MoveStep: 31/50, MoveLoss: -0.1365][31m Epoch 2/4000:  62%|██████▏   | 31/50 [00:22<00:13,  1.39it/s, MoveStep: 31/50, MoveLoss: -0.1365][31m Epoch 2/4000:  62%|██████▏   | 31/50 [00:22<00:13,  1.39it/s, MoveStep: 32/50, MoveLoss: -0.1407][31m Epoch 2/4000:  64%|██████▍   | 32/50 [00:22<00:12,  1.39it/s, MoveStep: 32/50, MoveLoss: -0.1407][31m Epoch 2/4000:  64%|██████▍   | 32/50 [00:23<00:12,  1.39it/s, MoveStep: 33/50, MoveLoss: -0.1933][31m Epoch 2/4000:  66%|██████▌   | 33/50 [00:23<00:12,  1.39it/s, MoveStep: 33/50, MoveLoss: -0.1933][31m Epoch 2/4000:  66%|██████▌   | 33/50 [00:24<00:12,  1.39it/s, MoveStep: 34/50, MoveLoss: -0.1813][31m Epoch 2/4000:  68%|██████▊   | 34/50 [00:24<00:11,  1.39it/s, MoveStep: 34/50, MoveLoss: -0.1813][31m Epoch 2/4000:  68%|██████▊   | 34/50 [00:25<00:11,  1.39it/s, MoveStep: 35/50, MoveLoss: -0.1701][31m Epoch 2/4000:  70%|███████   | 35/50 [00:25<00:10,  1.39it/s, MoveStep: 35/50, MoveLoss: -0.1701][31m Epoch 2/4000:  70%|███████   | 35/50 [00:25<00:10,  1.39it/s, MoveStep: 36/50, MoveLoss: -0.1483][31m Epoch 2/4000:  72%|███████▏  | 36/50 [00:25<00:10,  1.40it/s, MoveStep: 36/50, MoveLoss: -0.1483][31m Epoch 2/4000:  72%|███████▏  | 36/50 [00:26<00:10,  1.40it/s, MoveStep: 37/50, MoveLoss: -0.2183][31m Epoch 2/4000:  74%|███████▍  | 37/50 [00:26<00:09,  1.40it/s, MoveStep: 37/50, MoveLoss: -0.2183][31m Epoch 2/4000:  74%|███████▍  | 37/50 [00:27<00:09,  1.40it/s, MoveStep: 38/50, MoveLoss: -0.1806][31m Epoch 2/4000:  76%|███████▌  | 38/50 [00:27<00:08,  1.40it/s, MoveStep: 38/50, MoveLoss: -0.1806][31m Epoch 2/4000:  76%|███████▌  | 38/50 [00:28<00:08,  1.40it/s, MoveStep: 39/50, MoveLoss: -0.1388][31m Epoch 2/4000:  78%|███████▊  | 39/50 [00:28<00:07,  1.40it/s, MoveStep: 39/50, MoveLoss: -0.1388][31m Epoch 2/4000:  78%|███████▊  | 39/50 [00:28<00:07,  1.40it/s, MoveStep: 40/50, MoveLoss: -0.1576][31m Epoch 2/4000:  80%|████████  | 40/50 [00:28<00:07,  1.40it/s, MoveStep: 40/50, MoveLoss: -0.1576][31m Epoch 2/4000:  80%|████████  | 40/50 [00:29<00:07,  1.40it/s, MoveStep: 41/50, MoveLoss: -0.1242][31m Epoch 2/4000:  82%|████████▏ | 41/50 [00:29<00:06,  1.40it/s, MoveStep: 41/50, MoveLoss: -0.1242][31m Epoch 2/4000:  82%|████████▏ | 41/50 [00:30<00:06,  1.40it/s, MoveStep: 42/50, MoveLoss: -0.1477][31m Epoch 2/4000:  84%|████████▍ | 42/50 [00:30<00:05,  1.40it/s, MoveStep: 42/50, MoveLoss: -0.1477][31m Epoch 2/4000:  84%|████████▍ | 42/50 [00:30<00:05,  1.40it/s, MoveStep: 43/50, MoveLoss: -0.1465][31m Epoch 2/4000:  86%|████████▌ | 43/50 [00:30<00:05,  1.40it/s, MoveStep: 43/50, MoveLoss: -0.1465][31m Epoch 2/4000:  86%|████████▌ | 43/50 [00:31<00:05,  1.40it/s, MoveStep: 44/50, MoveLoss: -0.1762][31m Epoch 2/4000:  88%|████████▊ | 44/50 [00:31<00:04,  1.40it/s, MoveStep: 44/50, MoveLoss: -0.1762][31m Epoch 2/4000:  88%|████████▊ | 44/50 [00:32<00:04,  1.40it/s, MoveStep: 45/50, MoveLoss: -0.2282][31m Epoch 2/4000:  90%|█████████ | 45/50 [00:32<00:03,  1.40it/s, MoveStep: 45/50, MoveLoss: -0.2282][31m Epoch 2/4000:  90%|█████████ | 45/50 [00:33<00:03,  1.40it/s, MoveStep: 46/50, MoveLoss: -0.2268][31m Epoch 2/4000:  92%|█████████▏| 46/50 [00:33<00:02,  1.40it/s, MoveStep: 46/50, MoveLoss: -0.2268][31m Epoch 2/4000:  92%|█████████▏| 46/50 [00:33<00:02,  1.40it/s, MoveStep: 47/50, MoveLoss: -0.1656][31m Epoch 2/4000:  94%|█████████▍| 47/50 [00:33<00:02,  1.40it/s, MoveStep: 47/50, MoveLoss: -0.1656][31m Epoch 2/4000:  94%|█████████▍| 47/50 [00:34<00:02,  1.40it/s, MoveStep: 48/50, MoveLoss: -0.1967][31m Epoch 2/4000:  96%|█████████▌| 48/50 [00:34<00:01,  1.40it/s, MoveStep: 48/50, MoveLoss: -0.1967][31m Epoch 2/4000:  96%|█████████▌| 48/50 [00:35<00:01,  1.40it/s, MoveStep: 49/50, MoveLoss: -0.1217][31m Epoch 2/4000:  98%|█████████▊| 49/50 [00:35<00:00,  1.40it/s, MoveStep: 49/50, MoveLoss: -0.1217][31m Epoch 2/4000:  98%|█████████▊| 49/50 [00:35<00:00,  1.40it/s, MoveStep: 50/50, MoveLoss: -0.1250][31m Epoch 2/4000: 100%|██████████| 50/50 [00:35<00:00,  1.40it/s, MoveStep: 50/50, MoveLoss: -0.1250][31m Epoch 2/4000: 100%|██████████| 50/50 [00:35<00:00,  1.39it/s, MoveStep: 50/50, MoveLoss: -0.1250]
+[0m
+flow_loss= 0.0011574795935302973 reg_loss= -0.20530962944030762 ir_img_loss= 0.07910473644733429
+learning=9.999993893183532e-05, 总损失为:-8.4217，最佳损失为第2/2e:-8.42172089, 训练时间：0.0000 / 42.0000小时...24-1119-1356-22
+
+[31m Epoch 3/4000:   0%|          | 0/50 [00:00<?, ?it/s][31m Epoch 3/4000:   0%|          | 0/50 [00:00<?, ?it/s, MoveStep: 1/50, MoveLoss: -0.1547][31m Epoch 3/4000:   2%|▏         | 1/50 [00:00<00:36,  1.34it/s, MoveStep: 1/50, MoveLoss: -0.1547][31m Epoch 3/4000:   2%|▏         | 1/50 [00:01<00:36,  1.34it/s, MoveStep: 2/50, MoveLoss: -0.2001][31m Epoch 3/4000:   4%|▍         | 2/50 [00:01<00:35,  1.37it/s, MoveStep: 2/50, MoveLoss: -0.2001][31m Epoch 3/4000:   4%|▍         | 2/50 [00:02<00:35,  1.37it/s, MoveStep: 3/50, MoveLoss: -0.1527][31m Epoch 3/4000:   6%|▌         | 3/50 [00:02<00:34,  1.38it/s, MoveStep: 3/50, MoveLoss: -0.1527][31m Epoch 3/4000:   6%|▌         | 3/50 [00:02<00:34,  1.38it/s, MoveStep: 4/50, MoveLoss: -0.1724][31m Epoch 3/4000:   8%|▊         | 4/50 [00:02<00:33,  1.39it/s, MoveStep: 4/50, MoveLoss: -0.1724][31m Epoch 3/4000:   8%|▊         | 4/50 [00:03<00:33,  1.39it/s, MoveStep: 5/50, MoveLoss: -0.1573][31m Epoch 3/4000:  10%|█         | 5/50 [00:03<00:32,  1.39it/s, MoveStep: 5/50, MoveLoss: -0.1573][31m Epoch 3/4000:  10%|█         | 5/50 [00:04<00:32,  1.39it/s, MoveStep: 6/50, MoveLoss: -0.1324][31m Epoch 3/4000:  12%|█▏        | 6/50 [00:04<00:31,  1.39it/s, MoveStep: 6/50, MoveLoss: -0.1324][31m Epoch 3/4000:  12%|█▏        | 6/50 [00:05<00:31,  1.39it/s, MoveStep: 7/50, MoveLoss: -0.1650][31m Epoch 3/4000:  14%|█▍        | 7/50 [00:05<00:30,  1.40it/s, MoveStep: 7/50, MoveLoss: -0.1650][31m Epoch 3/4000:  14%|█▍        | 7/50 [00:05<00:30,  1.40it/s, MoveStep: 8/50, MoveLoss: -0.1533][31m Epoch 3/4000:  16%|█▌        | 8/50 [00:05<00:30,  1.40it/s, MoveStep: 8/50, MoveLoss: -0.1533][31m Epoch 3/4000:  16%|█▌        | 8/50 [00:06<00:30,  1.40it/s, MoveStep: 9/50, MoveLoss: -0.1996][31m Epoch 3/4000:  18%|█▊        | 9/50 [00:06<00:29,  1.40it/s, MoveStep: 9/50, MoveLoss: -0.1996][31m Epoch 3/4000:  18%|█▊        | 9/50 [00:07<00:29,  1.40it/s, MoveStep: 10/50, MoveLoss: -0.1471][31m Epoch 3/4000:  20%|██        | 10/50 [00:07<00:28,  1.40it/s, MoveStep: 10/50, MoveLoss: -0.1471][31m Epoch 3/4000:  20%|██        | 10/50 [00:07<00:28,  1.40it/s, MoveStep: 11/50, MoveLoss: -0.1351][31m Epoch 3/4000:  22%|██▏       | 11/50 [00:07<00:28,  1.37it/s, MoveStep: 11/50, MoveLoss: -0.1351][31m Epoch 3/4000:  22%|██▏       | 11/50 [00:08<00:28,  1.37it/s, MoveStep: 12/50, MoveLoss: -0.1717][31m Epoch 3/4000:  24%|██▍       | 12/50 [00:08<00:27,  1.38it/s, MoveStep: 12/50, MoveLoss: -0.1717][31m Epoch 3/4000:  24%|██▍       | 12/50 [00:09<00:27,  1.38it/s, MoveStep: 13/50, MoveLoss: -0.1612][31m Epoch 3/4000:  26%|██▌       | 13/50 [00:09<00:26,  1.38it/s, MoveStep: 13/50, MoveLoss: -0.1612][31m Epoch 3/4000:  26%|██▌       | 13/50 [00:10<00:26,  1.38it/s, MoveStep: 14/50, MoveLoss: -0.2103][31m Epoch 3/4000:  28%|██▊       | 14/50 [00:10<00:25,  1.39it/s, MoveStep: 14/50, MoveLoss: -0.2103][31m Epoch 3/4000:  28%|██▊       | 14/50 [00:10<00:25,  1.39it/s, MoveStep: 15/50, MoveLoss: -0.1852][31m Epoch 3/4000:  30%|███       | 15/50 [00:10<00:25,  1.39it/s, MoveStep: 15/50, MoveLoss: -0.1852][31m Epoch 3/4000:  30%|███       | 15/50 [00:11<00:25,  1.39it/s, MoveStep: 16/50, MoveLoss: -0.1635][31m Epoch 3/4000:  32%|███▏      | 16/50 [00:11<00:24,  1.39it/s, MoveStep: 16/50, MoveLoss: -0.1635][31m Epoch 3/4000:  32%|███▏      | 16/50 [00:12<00:24,  1.39it/s, MoveStep: 17/50, MoveLoss: -0.2277][31m Epoch 3/4000:  34%|███▍      | 17/50 [00:12<00:23,  1.39it/s, MoveStep: 17/50, MoveLoss: -0.2277][31m Epoch 3/4000:  34%|███▍      | 17/50 [00:12<00:23,  1.39it/s, MoveStep: 18/50, MoveLoss: -0.1366][31m Epoch 3/4000:  36%|███▌      | 18/50 [00:12<00:22,  1.39it/s, MoveStep: 18/50, MoveLoss: -0.1366][31m Epoch 3/4000:  36%|███▌      | 18/50 [00:13<00:22,  1.39it/s, MoveStep: 19/50, MoveLoss: -0.2148][31m Epoch 3/4000:  38%|███▊      | 19/50 [00:13<00:22,  1.40it/s, MoveStep: 19/50, MoveLoss: -0.2148][31m Epoch 3/4000:  38%|███▊      | 19/50 [00:14<00:22,  1.40it/s, MoveStep: 20/50, MoveLoss: -0.1896][31m Epoch 3/4000:  40%|████      | 20/50 [00:14<00:21,  1.39it/s, MoveStep: 20/50, MoveLoss: -0.1896][31m Epoch 3/4000:  40%|████      | 20/50 [00:15<00:21,  1.39it/s, MoveStep: 21/50, MoveLoss: -0.1384][31m Epoch 3/4000:  42%|████▏     | 21/50 [00:15<00:20,  1.40it/s, MoveStep: 21/50, MoveLoss: -0.1384][31m Epoch 3/4000:  42%|████▏     | 21/50 [00:15<00:20,  1.40it/s, MoveStep: 22/50, MoveLoss: -0.2520][31m Epoch 3/4000:  44%|████▍     | 22/50 [00:15<00:20,  1.40it/s, MoveStep: 22/50, MoveLoss: -0.2520][31m Epoch 3/4000:  44%|████▍     | 22/50 [00:16<00:20,  1.40it/s, MoveStep: 23/50, MoveLoss: -0.1722][31m Epoch 3/4000:  46%|████▌     | 23/50 [00:16<00:19,  1.40it/s, MoveStep: 23/50, MoveLoss: -0.1722][31m Epoch 3/4000:  46%|████▌     | 23/50 [00:17<00:19,  1.40it/s, MoveStep: 24/50, MoveLoss: -0.1693][31m Epoch 3/4000:  48%|████▊     | 24/50 [00:17<00:18,  1.40it/s, MoveStep: 24/50, MoveLoss: -0.1693][31m Epoch 3/4000:  48%|████▊     | 24/50 [00:17<00:18,  1.40it/s, MoveStep: 25/50, MoveLoss: -0.1566][31m Epoch 3/4000:  50%|█████     | 25/50 [00:17<00:17,  1.39it/s, MoveStep: 25/50, MoveLoss: -0.1566][31m Epoch 3/4000:  50%|█████     | 25/50 [00:18<00:17,  1.39it/s, MoveStep: 26/50, MoveLoss: -0.1486][31m Epoch 3/4000:  52%|█████▏    | 26/50 [00:18<00:17,  1.39it/s, MoveStep: 26/50, MoveLoss: -0.1486][31m Epoch 3/4000:  52%|█████▏    | 26/50 [00:19<00:17,  1.39it/s, MoveStep: 27/50, MoveLoss: -0.1838][31m Epoch 3/4000:  54%|█████▍    | 27/50 [00:19<00:16,  1.40it/s, MoveStep: 27/50, MoveLoss: -0.1838][31m Epoch 3/4000:  54%|█████▍    | 27/50 [00:20<00:16,  1.40it/s, MoveStep: 28/50, MoveLoss: -0.1492][31m Epoch 3/4000:  56%|█████▌    | 28/50 [00:20<00:15,  1.40it/s, MoveStep: 28/50, MoveLoss: -0.1492][31m Epoch 3/4000:  56%|█████▌    | 28/50 [00:20<00:15,  1.40it/s, MoveStep: 29/50, MoveLoss: -0.1852][31m Epoch 3/4000:  58%|█████▊    | 29/50 [00:20<00:15,  1.40it/s, MoveStep: 29/50, MoveLoss: -0.1852][31m Epoch 3/4000:  58%|█████▊    | 29/50 [00:21<00:15,  1.40it/s, MoveStep: 30/50, MoveLoss: -0.1849][31m Epoch 3/4000:  60%|██████    | 30/50 [00:21<00:14,  1.40it/s, MoveStep: 30/50, MoveLoss: -0.1849][31m Epoch 3/4000:  60%|██████    | 30/50 [00:22<00:14,  1.40it/s, MoveStep: 31/50, MoveLoss: -0.1430][31m Epoch 3/4000:  62%|██████▏   | 31/50 [00:22<00:13,  1.40it/s, MoveStep: 31/50, MoveLoss: -0.1430][31m Epoch 3/4000:  62%|██████▏   | 31/50 [00:22<00:13,  1.40it/s, MoveStep: 32/50, MoveLoss: -0.1345][31m Epoch 3/4000:  64%|██████▍   | 32/50 [00:22<00:12,  1.40it/s, MoveStep: 32/50, MoveLoss: -0.1345][31m Epoch 3/4000:  64%|██████▍   | 32/50 [00:23<00:12,  1.40it/s, MoveStep: 33/50, MoveLoss: -0.1355][31m Epoch 3/4000:  66%|██████▌   | 33/50 [00:23<00:12,  1.40it/s, MoveStep: 33/50, MoveLoss: -0.1355][31m Epoch 3/4000:  66%|██████▌   | 33/50 [00:24<00:12,  1.40it/s, MoveStep: 34/50, MoveLoss: -0.1612][31m Epoch 3/4000:  68%|██████▊   | 34/50 [00:24<00:11,  1.40it/s, MoveStep: 34/50, MoveLoss: -0.1612][31m Epoch 3/4000:  68%|██████▊   | 34/50 [00:25<00:11,  1.40it/s, MoveStep: 35/50, MoveLoss: -0.1537][31m Epoch 3/4000:  70%|███████   | 35/50 [00:25<00:10,  1.40it/s, MoveStep: 35/50, MoveLoss: -0.1537][31m Epoch 3/4000:  70%|███████   | 35/50 [00:25<00:10,  1.40it/s, MoveStep: 36/50, MoveLoss: -0.2309][31m Epoch 3/4000:  72%|███████▏  | 36/50 [00:25<00:10,  1.40it/s, MoveStep: 36/50, MoveLoss: -0.2309][31m Epoch 3/4000:  72%|███████▏  | 36/50 [00:26<00:10,  1.40it/s, MoveStep: 37/50, MoveLoss: -0.1514][31m Epoch 3/4000:  74%|███████▍  | 37/50 [00:26<00:09,  1.40it/s, MoveStep: 37/50, MoveLoss: -0.1514][31m Epoch 3/4000:  74%|███████▍  | 37/50 [00:27<00:09,  1.40it/s, MoveStep: 38/50, MoveLoss: -0.2093][31m Epoch 3/4000:  76%|███████▌  | 38/50 [00:27<00:08,  1.40it/s, MoveStep: 38/50, MoveLoss: -0.2093][31m Epoch 3/4000:  76%|███████▌  | 38/50 [00:27<00:08,  1.40it/s, MoveStep: 39/50, MoveLoss: -0.1959][31m Epoch 3/4000:  78%|███████▊  | 39/50 [00:27<00:07,  1.40it/s, MoveStep: 39/50, MoveLoss: -0.1959][31m Epoch 3/4000:  78%|███████▊  | 39/50 [00:28<00:07,  1.40it/s, MoveStep: 40/50, MoveLoss: -0.1577][31m Epoch 3/4000:  80%|████████  | 40/50 [00:28<00:07,  1.40it/s, MoveStep: 40/50, MoveLoss: -0.1577][31m Epoch 3/4000:  80%|████████  | 40/50 [00:29<00:07,  1.40it/s, MoveStep: 41/50, MoveLoss: -0.1913][31m Epoch 3/4000:  82%|████████▏ | 41/50 [00:29<00:06,  1.40it/s, MoveStep: 41/50, MoveLoss: -0.1913][31m Epoch 3/4000:  82%|████████▏ | 41/50 [00:30<00:06,  1.40it/s, MoveStep: 42/50, MoveLoss: -0.1303][31m Epoch 3/4000:  84%|████████▍ | 42/50 [00:30<00:05,  1.40it/s, MoveStep: 42/50, MoveLoss: -0.1303][31m Epoch 3/4000:  84%|████████▍ | 42/50 [00:30<00:05,  1.40it/s, MoveStep: 43/50, MoveLoss: -0.1616][31m Epoch 3/4000:  86%|████████▌ | 43/50 [00:30<00:05,  1.40it/s, MoveStep: 43/50, MoveLoss: -0.1616][31m Epoch 3/4000:  86%|████████▌ | 43/50 [00:31<00:05,  1.40it/s, MoveStep: 44/50, MoveLoss: -0.2494][31m Epoch 3/4000:  88%|████████▊ | 44/50 [00:31<00:04,  1.38it/s, MoveStep: 44/50, MoveLoss: -0.2494][31m Epoch 3/4000:  88%|████████▊ | 44/50 [00:32<00:04,  1.38it/s, MoveStep: 45/50, MoveLoss: -0.1911][31m Epoch 3/4000:  90%|█████████ | 45/50 [00:32<00:03,  1.38it/s, MoveStep: 45/50, MoveLoss: -0.1911][31m Epoch 3/4000:  90%|█████████ | 45/50 [00:33<00:03,  1.38it/s, MoveStep: 46/50, MoveLoss: -0.1638][31m Epoch 3/4000:  92%|█████████▏| 46/50 [00:33<00:02,  1.39it/s, MoveStep: 46/50, MoveLoss: -0.1638][31m Epoch 3/4000:  92%|█████████▏| 46/50 [00:33<00:02,  1.39it/s, MoveStep: 47/50, MoveLoss: -0.1527][31m Epoch 3/4000:  94%|█████████▍| 47/50 [00:33<00:02,  1.39it/s, MoveStep: 47/50, MoveLoss: -0.1527][31m Epoch 3/4000:  94%|█████████▍| 47/50 [00:34<00:02,  1.39it/s, MoveStep: 48/50, MoveLoss: -0.1654][31m Epoch 3/4000:  96%|█████████▌| 48/50 [00:34<00:01,  1.39it/s, MoveStep: 48/50, MoveLoss: -0.1654][31m Epoch 3/4000:  96%|█████████▌| 48/50 [00:35<00:01,  1.39it/s, MoveStep: 49/50, MoveLoss: -0.2217][31m Epoch 3/4000:  98%|█████████▊| 49/50 [00:35<00:00,  1.40it/s, MoveStep: 49/50, MoveLoss: -0.2217][31m Epoch 3/4000:  98%|█████████▊| 49/50 [00:35<00:00,  1.40it/s, MoveStep: 50/50, MoveLoss: -0.1817][31m Epoch 3/4000: 100%|██████████| 50/50 [00:35<00:00,  1.40it/s, MoveStep: 50/50, MoveLoss: -0.1817][31m Epoch 3/4000: 100%|██████████| 50/50 [00:35<00:00,  1.39it/s, MoveStep: 50/50, MoveLoss: -0.1817]
+[0m
+flow_loss= 0.0017959445249289274 reg_loss= -0.2508765161037445 ir_img_loss= 0.06739926338195801
+learning=9.999986259666481e-05, 总损失为:-8.6524，最佳损失为第3/3e:-8.65241456, 训练时间：0.0000 / 41.0000小时...24-1119-1356-59
+
+[31m Epoch 4/4000:   0%|          | 0/50 [00:00<?, ?it/s][31m Epoch 4/4000:   0%|          | 0/50 [00:00<?, ?it/s, MoveStep: 1/50, MoveLoss: -0.2177][31m Epoch 4/4000:   2%|▏         | 1/50 [00:00<00:36,  1.33it/s, MoveStep: 1/50, MoveLoss: -0.2177][31m Epoch 4/4000:   2%|▏         | 1/50 [00:01<00:36,  1.33it/s, MoveStep: 2/50, MoveLoss: -0.1244][31m Epoch 4/4000:   4%|▍         | 2/50 [00:01<00:35,  1.37it/s, MoveStep: 2/50, MoveLoss: -0.1244][31m Epoch 4/4000:   4%|▍         | 2/50 [00:02<00:35,  1.37it/s, MoveStep: 3/50, MoveLoss: -0.2004][31m Epoch 4/4000:   6%|▌         | 3/50 [00:02<00:34,  1.38it/s, MoveStep: 3/50, MoveLoss: -0.2004][31m Epoch 4/4000:   6%|▌         | 3/50 [00:02<00:34,  1.38it/s, MoveStep: 4/50, MoveLoss: -0.1698][31m Epoch 4/4000:   8%|▊         | 4/50 [00:02<00:33,  1.39it/s, MoveStep: 4/50, MoveLoss: -0.1698][31m Epoch 4/4000:   8%|▊         | 4/50 [00:03<00:33,  1.39it/s, MoveStep: 5/50, MoveLoss: -0.1695][31m Epoch 4/4000:  10%|█         | 5/50 [00:03<00:32,  1.39it/s, MoveStep: 5/50, MoveLoss: -0.1695][31m Epoch 4/4000:  10%|█         | 5/50 [00:04<00:32,  1.39it/s, MoveStep: 6/50, MoveLoss: -0.2138][31m Epoch 4/4000:  12%|█▏        | 6/50 [00:04<00:31,  1.39it/s, MoveStep: 6/50, MoveLoss: -0.2138][31m Epoch 4/4000:  12%|█▏        | 6/50 [00:05<00:31,  1.39it/s, MoveStep: 7/50, MoveLoss: -0.1875][31m Epoch 4/4000:  14%|█▍        | 7/50 [00:05<00:30,  1.39it/s, MoveStep: 7/50, MoveLoss: -0.1875][31m Epoch 4/4000:  14%|█▍        | 7/50 [00:05<00:30,  1.39it/s, MoveStep: 8/50, MoveLoss: -0.1889][31m Epoch 4/4000:  16%|█▌        | 8/50 [00:05<00:30,  1.39it/s, MoveStep: 8/50, MoveLoss: -0.1889][31m Epoch 4/4000:  16%|█▌        | 8/50 [00:06<00:30,  1.39it/s, MoveStep: 9/50, MoveLoss: -0.1874][31m Epoch 4/4000:  18%|█▊        | 9/50 [00:06<00:29,  1.39it/s, MoveStep: 9/50, MoveLoss: -0.1874][31m Epoch 4/4000:  18%|█▊        | 9/50 [00:07<00:29,  1.39it/s, MoveStep: 10/50, MoveLoss: -0.1727][31m Epoch 4/4000:  20%|██        | 10/50 [00:07<00:28,  1.39it/s, MoveStep: 10/50, MoveLoss: -0.1727][31m Epoch 4/4000:  20%|██        | 10/50 [00:07<00:28,  1.39it/s, MoveStep: 11/50, MoveLoss: -0.1477][31m Epoch 4/4000:  22%|██▏       | 11/50 [00:07<00:27,  1.39it/s, MoveStep: 11/50, MoveLoss: -0.1477][31m Epoch 4/4000:  22%|██▏       | 11/50 [00:08<00:27,  1.39it/s, MoveStep: 12/50, MoveLoss: -0.1926][31m Epoch 4/4000:  24%|██▍       | 12/50 [00:08<00:27,  1.39it/s, MoveStep: 12/50, MoveLoss: -0.1926][31m Epoch 4/4000:  24%|██▍       | 12/50 [00:09<00:27,  1.39it/s, MoveStep: 13/50, MoveLoss: -0.1950][31m Epoch 4/4000:  26%|██▌       | 13/50 [00:09<00:26,  1.39it/s, MoveStep: 13/50, MoveLoss: -0.1950][31m Epoch 4/4000:  26%|██▌       | 13/50 [00:10<00:26,  1.39it/s, MoveStep: 14/50, MoveLoss: -0.1287][31m Epoch 4/4000:  28%|██▊       | 14/50 [00:10<00:25,  1.40it/s, MoveStep: 14/50, MoveLoss: -0.1287][31m Epoch 4/4000:  28%|██▊       | 14/50 [00:10<00:25,  1.40it/s, MoveStep: 15/50, MoveLoss: -0.1735][31m Epoch 4/4000:  30%|███       | 15/50 [00:10<00:25,  1.39it/s, MoveStep: 15/50, MoveLoss: -0.1735][31m Epoch 4/4000:  30%|███       | 15/50 [00:11<00:25,  1.39it/s, MoveStep: 16/50, MoveLoss: -0.1979][31m Epoch 4/4000:  32%|███▏      | 16/50 [00:11<00:24,  1.39it/s, MoveStep: 16/50, MoveLoss: -0.1979][31m Epoch 4/4000:  32%|███▏      | 16/50 [00:12<00:24,  1.39it/s, MoveStep: 17/50, MoveLoss: -0.2308][31m Epoch 4/4000:  34%|███▍      | 17/50 [00:12<00:23,  1.39it/s, MoveStep: 17/50, MoveLoss: -0.2308][31m Epoch 4/4000:  34%|███▍      | 17/50 [00:12<00:23,  1.39it/s, MoveStep: 18/50, MoveLoss: -0.1563][31m Epoch 4/4000:  36%|███▌      | 18/50 [00:12<00:22,  1.39it/s, MoveStep: 18/50, MoveLoss: -0.1563][31m Epoch 4/4000:  36%|███▌      | 18/50 [00:13<00:22,  1.39it/s, MoveStep: 19/50, MoveLoss: -0.1476][31m Epoch 4/4000:  38%|███▊      | 19/50 [00:13<00:22,  1.40it/s, MoveStep: 19/50, MoveLoss: -0.1476][31m Epoch 4/4000:  38%|███▊      | 19/50 [00:14<00:22,  1.40it/s, MoveStep: 20/50, MoveLoss: -0.1538][31m Epoch 4/4000:  40%|████      | 20/50 [00:14<00:21,  1.39it/s, MoveStep: 20/50, MoveLoss: -0.1538][31m Epoch 4/4000:  40%|████      | 20/50 [00:15<00:21,  1.39it/s, MoveStep: 21/50, MoveLoss: -0.1956][31m Epoch 4/4000:  42%|████▏     | 21/50 [00:15<00:20,  1.40it/s, MoveStep: 21/50, MoveLoss: -0.1956][31m Epoch 4/4000:  42%|████▏     | 21/50 [00:15<00:20,  1.40it/s, MoveStep: 22/50, MoveLoss: -0.1459][31m Epoch 4/4000:  44%|████▍     | 22/50 [00:15<00:20,  1.40it/s, MoveStep: 22/50, MoveLoss: -0.1459][31m Epoch 4/4000:  44%|████▍     | 22/50 [00:16<00:20,  1.40it/s, MoveStep: 23/50, MoveLoss: -0.2164][31m Epoch 4/4000:  46%|████▌     | 23/50 [00:16<00:19,  1.40it/s, MoveStep: 23/50, MoveLoss: -0.2164][31m Epoch 4/4000:  46%|████▌     | 23/50 [00:17<00:19,  1.40it/s, MoveStep: 24/50, MoveLoss: -0.1590][31m Epoch 4/4000:  48%|████▊     | 24/50 [00:17<00:18,  1.40it/s, MoveStep: 24/50, MoveLoss: -0.1590][31m Epoch 4/4000:  48%|████▊     | 24/50 [00:17<00:18,  1.40it/s, MoveStep: 25/50, MoveLoss: -0.2158][31m Epoch 4/4000:  50%|█████     | 25/50 [00:17<00:17,  1.40it/s, MoveStep: 25/50, MoveLoss: -0.2158][31m Epoch 4/4000:  50%|█████     | 25/50 [00:18<00:17,  1.40it/s, MoveStep: 26/50, MoveLoss: -0.1709][31m Epoch 4/4000:  52%|█████▏    | 26/50 [00:18<00:17,  1.40it/s, MoveStep: 26/50, MoveLoss: -0.1709][31m Epoch 4/4000:  52%|█████▏    | 26/50 [00:19<00:17,  1.40it/s, MoveStep: 27/50, MoveLoss: -0.1505][31m Epoch 4/4000:  54%|█████▍    | 27/50 [00:19<00:16,  1.37it/s, MoveStep: 27/50, MoveLoss: -0.1505][31m Epoch 4/4000:  54%|█████▍    | 27/50 [00:20<00:16,  1.37it/s, MoveStep: 28/50, MoveLoss: -0.2223][31m Epoch 4/4000:  56%|█████▌    | 28/50 [00:20<00:15,  1.38it/s, MoveStep: 28/50, MoveLoss: -0.2223][31m Epoch 4/4000:  56%|█████▌    | 28/50 [00:20<00:15,  1.38it/s, MoveStep: 29/50, MoveLoss: -0.1356][31m Epoch 4/4000:  58%|█████▊    | 29/50 [00:20<00:15,  1.38it/s, MoveStep: 29/50, MoveLoss: -0.1356][31m Epoch 4/4000:  58%|█████▊    | 29/50 [00:21<00:15,  1.38it/s, MoveStep: 30/50, MoveLoss: -0.1756][31m Epoch 4/4000:  60%|██████    | 30/50 [00:21<00:14,  1.39it/s, MoveStep: 30/50, MoveLoss: -0.1756][31m Epoch 4/4000:  60%|██████    | 30/50 [00:22<00:14,  1.39it/s, MoveStep: 31/50, MoveLoss: -0.1578][31m Epoch 4/4000:  62%|██████▏   | 31/50 [00:22<00:13,  1.39it/s, MoveStep: 31/50, MoveLoss: -0.1578][31m Epoch 4/4000:  62%|██████▏   | 31/50 [00:23<00:13,  1.39it/s, MoveStep: 32/50, MoveLoss: -0.2015][31m Epoch 4/4000:  64%|██████▍   | 32/50 [00:23<00:12,  1.39it/s, MoveStep: 32/50, MoveLoss: -0.2015][31m Epoch 4/4000:  64%|██████▍   | 32/50 [00:23<00:12,  1.39it/s, MoveStep: 33/50, MoveLoss: -0.1701][31m Epoch 4/4000:  66%|██████▌   | 33/50 [00:23<00:12,  1.39it/s, MoveStep: 33/50, MoveLoss: -0.1701][31m Epoch 4/4000:  66%|██████▌   | 33/50 [00:24<00:12,  1.39it/s, MoveStep: 34/50, MoveLoss: -0.1486][31m Epoch 4/4000:  68%|██████▊   | 34/50 [00:24<00:11,  1.39it/s, MoveStep: 34/50, MoveLoss: -0.1486][31m Epoch 4/4000:  68%|██████▊   | 34/50 [00:25<00:11,  1.39it/s, MoveStep: 35/50, MoveLoss: -0.1702][31m Epoch 4/4000:  70%|███████   | 35/50 [00:25<00:10,  1.39it/s, MoveStep: 35/50, MoveLoss: -0.1702][31m Epoch 4/4000:  70%|███████   | 35/50 [00:25<00:10,  1.39it/s, MoveStep: 36/50, MoveLoss: -0.2134][31m Epoch 4/4000:  72%|███████▏  | 36/50 [00:25<00:10,  1.39it/s, MoveStep: 36/50, MoveLoss: -0.2134][31m Epoch 4/4000:  72%|███████▏  | 36/50 [00:26<00:10,  1.39it/s, MoveStep: 37/50, MoveLoss: -0.2420][31m Epoch 4/4000:  74%|███████▍  | 37/50 [00:26<00:09,  1.39it/s, MoveStep: 37/50, MoveLoss: -0.2420][31m Epoch 4/4000:  74%|███████▍  | 37/50 [00:27<00:09,  1.39it/s, MoveStep: 38/50, MoveLoss: -0.1926][31m Epoch 4/4000:  76%|███████▌  | 38/50 [00:27<00:08,  1.40it/s, MoveStep: 38/50, MoveLoss: -0.1926][31m Epoch 4/4000:  76%|███████▌  | 38/50 [00:28<00:08,  1.40it/s, MoveStep: 39/50, MoveLoss: -0.1955][31m Epoch 4/4000:  78%|███████▊  | 39/50 [00:28<00:07,  1.39it/s, MoveStep: 39/50, MoveLoss: -0.1955][31m Epoch 4/4000:  78%|███████▊  | 39/50 [00:28<00:07,  1.39it/s, MoveStep: 40/50, MoveLoss: -0.1863][31m Epoch 4/4000:  80%|████████  | 40/50 [00:28<00:07,  1.39it/s, MoveStep: 40/50, MoveLoss: -0.1863][31m Epoch 4/4000:  80%|████████  | 40/50 [00:29<00:07,  1.39it/s, MoveStep: 41/50, MoveLoss: -0.1631][31m Epoch 4/4000:  82%|████████▏ | 41/50 [00:29<00:06,  1.39it/s, MoveStep: 41/50, MoveLoss: -0.1631][31m Epoch 4/4000:  82%|████████▏ | 41/50 [00:30<00:06,  1.39it/s, MoveStep: 42/50, MoveLoss: -0.2047][31m Epoch 4/4000:  84%|████████▍ | 42/50 [00:30<00:05,  1.39it/s, MoveStep: 42/50, MoveLoss: -0.2047][31m Epoch 4/4000:  84%|████████▍ | 42/50 [00:30<00:05,  1.39it/s, MoveStep: 43/50, MoveLoss: -0.1719][31m Epoch 4/4000:  86%|████████▌ | 43/50 [00:30<00:05,  1.39it/s, MoveStep: 43/50, MoveLoss: -0.1719][31m Epoch 4/4000:  86%|████████▌ | 43/50 [00:31<00:05,  1.39it/s, MoveStep: 44/50, MoveLoss: -0.1330][31m Epoch 4/4000:  88%|████████▊ | 44/50 [00:31<00:04,  1.39it/s, MoveStep: 44/50, MoveLoss: -0.1330][31m Epoch 4/4000:  88%|████████▊ | 44/50 [00:32<00:04,  1.39it/s, MoveStep: 45/50, MoveLoss: -0.1546][31m Epoch 4/4000:  90%|█████████ | 45/50 [00:32<00:03,  1.39it/s, MoveStep: 45/50, MoveLoss: -0.1546][31m Epoch 4/4000:  90%|█████████ | 45/50 [00:33<00:03,  1.39it/s, MoveStep: 46/50, MoveLoss: -0.1504][31m Epoch 4/4000:  92%|█████████▏| 46/50 [00:33<00:02,  1.39it/s, MoveStep: 46/50, MoveLoss: -0.1504]

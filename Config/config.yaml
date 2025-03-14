@@ -1,0 +1,32 @@
+# config.yaml
+num_epochs: 300
+batch_size: 10
+num_workers: 4
+learning_rate: 0.0001  # 0.00001
+weight_decay: 0.000001
+seed: 2024
+img_size: [128, 128]   # 如果等于0不使用缩放，如果大于0就使用resize缩放
+size_mode: 'resize' # 'crop'：图像中随机裁剪  or 'resize'：图像进行resize
+loss_weight: [ 1, 5, 20, 4]     # 像素、SSIM、梯度、重建红外与可见光图像损失
+opt_type: 'Adam'  # Adam or RMSprop
+scheduler: ['False', '3600']   # False时不起作用， True时为为每隔多少轮学习率乘以0.5
+img_mode: 'rgb'   # rgb or gray
+dataset: 'RoadScene_Sub'   # 数据集名称，与 train_paths构成字典
+testset: 'Test'
+registration: True  # 是否为配准模式
+use_bn: True  # 是否使用 bn 层
+num_step: 150 # 每隔多少轮测试一下
+# 设置数据集路径
+train_paths:
+
+
+  RoadScene_train: "./Dataset/RoadScene/RoadS_train"
+  # 其它数据路径
+  example_train: "./Dataset/example/train"
+  Test: "./Dataset/RoadScene/RoadS_test"
+
+
+# 第二阶段训练
+phase2_ModelPath: './Model/Parameters/24-1119-1001/RegImageFusModel-best.pth'
+phase2_model_id: '24-1119-1001'
+
