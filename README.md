@@ -203,7 +203,7 @@ python ./Util/metrics_reg.py
 ![Registration + Fusion](./Figures/PaperAcademic/figure5.png)
 
 
-### 📊 Table 1: Quantitative Comparison of Registration + Fusion Methods  
+### 📊 Table 1: Quantitative Comparison of Registration + Fusion Methods — Detailed Results
 *(Red bold = best, Orange bold = second-best)*  
 
 
@@ -223,7 +223,7 @@ python ./Util/metrics_reg.py
 ### Joint Optimization Results
 ![Joint Optimization](./Figures/PaperAcademic/figure6.png)
 
-### 📊 Table 2: Quantitative Comparison of Joint Optimization Methods  
+### 📊 Table 2: Quantitative Comparison of Joint Optimization Methods — Detailed Results
 *(Red bold = best, Orange bold = second-best)*  
 
 <p align="center">
