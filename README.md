@@ -249,7 +249,7 @@ python ./Util/metrics_reg.py
 | **Ours**    | <span style="color:red; font-weight:bold">4.2775</span> | <span style="color:red; font-weight:bold">0.5673</span> | <span style="color:red; font-weight:bold">0.8594</span> | <span style="color:red; font-weight:bold">0.5742</span> | <span style="color:red; font-weight:bold">0.5226</span> | <span style="color:red; font-weight:bold">466.9209</span> |
 
 
-📌 *Note: In each column, values in **red bold** are the best, and values in **orange bold** are the second-best.*
+📌 *Note: In each column, values in **red bold** are the best, and values in **orange bold** are the second-best. Color highlighting may not display on GitHub but works in local Markdown editors.*
 
 
 ---
@@ -301,7 +301,7 @@ python ./Util/metrics_reg.py
 | **Ours**      | <span style="color:red; font-weight:bold">4.2775</span> | <span style="color:orange; font-weight:bold">0.5673</span> | <span style="color:red; font-weight:bold">0.8594</span> | <span style="color:red; font-weight:bold">0.5742</span> | <span style="color:red; font-weight:bold">0.5226</span> | <span style="color:red; font-weight:bold">466.9209</span> |
 
 
-📌 *Note: In each column, values in **red bold** are the best, and values in **orange bold** are the second-best.*
+📌 *Note: In each column, values in **red bold** are the best, and values in **orange bold** are the second-best. Color highlighting may not display on GitHub but works in local Markdown editors.*
 
 ---
 

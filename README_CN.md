@@ -240,7 +240,7 @@ python ./Util/metrics_reg.py
 | **Ours**    | <span style="color:red; font-weight:bold">4.2775</span> | <span style="color:red; font-weight:bold">0.5673</span> | <span style="color:red; font-weight:bold">0.8594</span> | <span style="color:red; font-weight:bold">0.5742</span> | <span style="color:red; font-weight:bold">0.5226</span> | <span style="color:red; font-weight:bold">466.9209</span> |
 
 
-📌 *注：每一列中，红色加粗数值表示最佳结果，橙色加粗数值表示次优结果。*
+📌 *注：每一列中，红色加粗数值表示最佳结果，橙色加粗数值表示次优结果。注意：在GitHub上可能无法显示颜色，但在本地Markdown编辑器中可正常高亮。*
 
 
 ---
@@ -292,7 +292,7 @@ python ./Util/metrics_reg.py
 | **Ours**      | <span style="color:red; font-weight:bold">4.2775</span> | <span style="color:orange; font-weight:bold">0.5673</span> | <span style="color:red; font-weight:bold">0.8594</span> | <span style="color:red; font-weight:bold">0.5742</span> | <span style="color:red; font-weight:bold">0.5226</span> | <span style="color:red; font-weight:bold">466.9209</span> |
 
 
-📌 *注：每一列中，红色加粗数值表示最佳结果，橙色加粗数值表示次优结果。*
+📌 *注：每一列中，红色加粗数值表示最佳结果，橙色加粗数值表示次优结果。注意：在GitHub上可能无法显示颜色，但在本地Markdown编辑器中可正常高亮。*
 
 ---
 
