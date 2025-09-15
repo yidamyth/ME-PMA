@@ -206,6 +206,8 @@ python ./Util/metrics_reg.py
 ### 📊 Table 1: Quantitative Comparison of Registration + Fusion Methods  
 *(Red bold = best, Orange bold = second-best)*  
 
+![Registration + Fusion Quantitative Comparison](./Figures/PaperAcademic/figure5-1.png)
+
 
 ### 🚗 RoadScene Dataset
 | Method      | $Q_{MI}$ ↑ | $Q_{CE}$ ↓ | $Q_{VIF}$ ↑ | $Q_{AB/F}$ ↑ | $Q_{CB}$ ↑ | $Q_{CV}$ ↓ |
@@ -261,6 +263,9 @@ python ./Util/metrics_reg.py
 ### 📊 Table 2: Quantitative Comparison of Joint Optimization Methods  
 *(Red bold = best, Orange bold = second-best)*  
 
+![Joint Optimization Quantitative Comparison](./Figures/PaperAcademic/figure6-1.png)
+
+
 
 ### 🚗 RoadScene Dataset
 | Method        | $Q_{MI}$ ↑ | $Q_{CE}$ ↓ | $Q_{VIF}$ ↑ | $Q_{AB/F}$ ↑ | $Q_{CB}$ ↑ | $Q_{CV}$ ↓ |
@@ -299,6 +304,8 @@ python ./Util/metrics_reg.py
 | IMF           | 2.1115 | 1.6757 | 0.5201 | 0.2755 | 0.4488 | 783.3043 |
 | IVFWSR        | 2.2742 | <span style="color:red; font-weight:bold">0.4942</span> | 0.4793 | 0.2242 | 0.4520 | 862.8701 |
 | **Ours**      | <span style="color:red; font-weight:bold">4.2775</span> | <span style="color:orange; font-weight:bold">0.5673</span> | <span style="color:red; font-weight:bold">0.8594</span> | <span style="color:red; font-weight:bold">0.5742</span> | <span style="color:red; font-weight:bold">0.5226</span> | <span style="color:red; font-weight:bold">466.9209</span> |
+
+
 
 
 📌 *Note: In each column, values in **red bold** are the best, and values in **orange bold** are the second-best. Color highlighting may not display on GitHub but works in local Markdown editors.*
