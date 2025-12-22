@@ -284,7 +284,9 @@ python ./Util/metrics_reg.py
 
 ### 目标检测和语义分割
 
-相关模型将很快更新并上传。
+**目标检测**: https://github.com/yidamyth/IF_Yolov8
+
+语义分割模型将很快更新并上传。
 
 ### 模型：参数量 + 计算量
 
