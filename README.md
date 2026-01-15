@@ -293,7 +293,7 @@ python ./Util/metrics_reg.py
 
 **Object Detection**: https://github.com/yidamyth/IF_Yolov8
 
-The related models (Semantic Segmentation) will be updated and uploaded soon.
+**Semantic Segmentation**: https://github.com/yidamyth/IF_DeepLabv3
 
 
 
