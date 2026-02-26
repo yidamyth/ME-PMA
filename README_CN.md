@@ -353,6 +353,6 @@ python -m Model.Architecture.RegImageFusModel
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=yidamyth/ME-PMA&type=Date&theme=dark" />
   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=yidamyth/ME-PMA&type=Date" />
-  <img alt="Star 历史趋势图" src="https://api.star-history.com/svg?repos=yidamyth/ME-PMA&type=Date" />
+  <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=yidamyth/ME-PMA&type=Date" />
 </picture>
 </div>
