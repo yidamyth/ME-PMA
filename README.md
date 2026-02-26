@@ -334,7 +334,7 @@ If this work benefits your research, a citation to our paper would be greatly ap
 ```
 @article{2026_ME-PMA,
   title   = {Joint multi-view embedding with progressive multi-scale alignment for unaligned infrared-visible image fusion},
-  author  = {Chen, Yida and Zhang, Yafei and Li, Huafeng and Yu, Zhengtao and Liu, Yu},
+  author  = {Yida Chen and Yafei Zhang and Huafeng Li and Zhengtao Yu and Yu Liu},
   journal = {Information Fusion},
   volume  = {128},
   pages   = {103960},
