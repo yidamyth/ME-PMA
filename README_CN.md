@@ -330,7 +330,7 @@ python -m Model.Architecture.RegImageFusModel
 ```bibtex
 @article{2026_ME-PMA,
   title   = {Joint multi-view embedding with progressive multi-scale alignment for unaligned infrared-visible image fusion},
-  author  = {Chen, Yida and Zhang, Yafei and Li, Huafeng and Yu, Zhengtao and Liu, Yu},
+  author  = {Yida Chen and Yafei Zhang and Huafeng Li and Zhengtao Yu and Yu Liu},
   journal = {Information Fusion},
   volume  = {128},
   pages   = {103960},
