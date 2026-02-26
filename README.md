@@ -353,4 +353,10 @@ Thank you for your attention. If you have any questions, please contact us by em
 
 
 ## 🙌 Star History
-[![Star History Chart](https://api.star-history.com/svg?repos=yidamyth/ME-PMA&type=Date)](https://star-history.com/#yidamyth/ME-PMA&Date)
+<div style="text-align: center;">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=yidamyth/ME-PMA&type=Date&theme=dark" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=yidamyth/ME-PMA&type=Date" />
+  <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=yidamyth/ME-PMA&type=Date" />
+</picture>
+</div>
