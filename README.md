@@ -355,6 +355,5 @@ Thank you for your attention. If you have any questions, please contact us by em
 ## 🙌 Star History
 
 <p align="center">
-  <img src="https://api.star-history.com/svg?repos=yidamyth/ME-PMA&type=Date&theme=dark" alt="Star History Chart" #gh-dark-mode-only />
   <img src="https://api.star-history.com/svg?repos=yidamyth/ME-PMA&type=Date" alt="Star History Chart" #gh-light-mode-only />
 </p>
