@@ -11,6 +11,8 @@
 [![DOI](https://img.shields.io/badge/DOI|PDF-10.1016%2Fj.inffus.2025.103960-blue?style=for-the-badge)](https://doi.org/10.1016/j.inffus.2025.103960)
 [![Code](https://img.shields.io/badge/Code-ME--PMA-black?style=for-the-badge&logo=github)](https://github.com/yidamyth/ME-PMA)
 
+[![中文解读](https://img.shields.io/badge/WeChat-中文解读-07C160?style=for-the-badge&logo=wechat&logoColor=white)](https://mp.weixin.qq.com/s/eO4_GBanKK8heycQLpYXqw)
+
 <br>
 
 ## 👨‍💻 **Authors**
